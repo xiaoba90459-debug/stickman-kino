@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "characters": {
+    "eli": {
+      "name": "Eli",
+      "size": 540,
+      "color": "#29384a",
+      "paper": "#f1d6b4",
+      "shirt": "#d99553",
+      "shorts": "#344153",
+      "hat": "beanie",
+      "hatColor": "#728eaa",
+      "hair": "spiky",
+      "face": "dots",
+      "glasses": true,
+      "stroke": 0.027
+    },
+    "older-eli": {
+      "name": "Older Eli",
+      "size": 540,
+      "color": "#354352",
+      "paper": "#f1d6b4",
+      "shirt": "#c5c8b4",
+      "shorts": "#344153",
+      "hat": "beanie",
+      "hatColor": "#728eaa",
+      "face": "dots",
+      "glasses": true,
+      "stroke": 0.027
+    }
+  }
+}

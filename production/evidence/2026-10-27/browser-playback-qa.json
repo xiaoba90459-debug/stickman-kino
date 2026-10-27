@@ -1,0 +1,19 @@
+{
+  "playback": {
+    "duration": 80,
+    "width": 1920,
+    "height": 1080,
+    "currentTime": 1.215463,
+    "error": null,
+    "audioDecodedBytes": 36266,
+    "videoDecodedBytes": 283959,
+    "readyState": 4
+  },
+  "seekTo44_2": "passed",
+  "mobile": {
+    "overflow": false,
+    "videoWidth": 350,
+    "innerWidth": 390
+  },
+  "pageErrors": []
+}

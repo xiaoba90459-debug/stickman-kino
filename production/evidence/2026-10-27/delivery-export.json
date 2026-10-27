@@ -1,0 +1,8 @@
+{
+  "originalMaster": "/workspace/stickman-kino/videos/every-door-production/renders/every-door-production.mp4",
+  "masterBytes": 44403063,
+  "deliveryFile": "every-door-delivery.mp4",
+  "deliveryBytes": 12906229,
+  "encoding": "1080p30 libx264 fast CRF23; VBV maxrate2200k/bufsize4400k; AAC copied",
+  "reason": "Private static artifact hosting has a 25 MiB per-file limit; full-duration 1080p30 master remains unchanged in cloud."
+}

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "minShotSeconds": 2.5,
+  "maxShotSeconds": 7,
+  "maxSameCompositionStreak": 1,
+  "captionFontSize": 70,
+  "captionWords": 5,
+  "captionSafeY": 1008,
+  "microActEverySeconds": 1.1,
+  "music": {
+    "style": "suspense",
+    "bpm": 82,
+    "seed": 73,
+    "lufs": -30,
+    "volume": 0.7
+  },
+  "render": {
+    "quality": "looks",
+    "fps": 30,
+    "workers": 2,
+    "timeoutSeconds": 2700
+  },
+  "limits": {
+    "maxAudioFileBytes": 200000000,
+    "maxGeneratedFileBytes": 1000000000,
+    "audioCommandTimeoutSeconds": 90,
+    "maxSeconds": 720
+  },
+  "validation": {
+    "60": "previous story rendered, general entry needs independent test",
+    "180": "configuration only, not end-to-end validated",
+    "600": "configuration only, not end-to-end validated"
+  },
+  "maxUnchangedPrimarySeconds": 2
+}

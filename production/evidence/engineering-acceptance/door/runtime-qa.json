@@ -1,0 +1,40 @@
+{
+  "reachChecks": [
+    {
+      "scene": "b01",
+      "verb": "open",
+      "target": "door",
+      "errorPixels": 0.005615234375
+    }
+  ],
+  "frameCount": 300,
+  "invalidTransforms": 0,
+  "subtitleOverlap": 0,
+  "subtitleBounds": 0,
+  "textCollisions": 0,
+  "collisionExamples": [],
+  "identities": {
+    "eli": [
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}"
+    ]
+  },
+  "motion": [
+    {
+      "scene": "b01",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.7,
+      "meaningfulActions": [
+        "open",
+        "startle"
+      ]
+    },
+    {
+      "scene": "b02",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": []
+    }
+  ],
+  "seekDeterministic": true,
+  "pageErrors": []
+}

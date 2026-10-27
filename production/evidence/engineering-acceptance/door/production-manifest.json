@@ -1,0 +1,69 @@
+{
+  "job": "acceptance-door",
+  "productionCodeSha256": "2a65b183a271a9d48bfe165546fdcd7c02c36e59098944d3905e925a836d37a5",
+  "sharedRuntimeSha256": "e201ee601bd0d0e5a469dad9e6f877a43dc8cec9fb978414c5cb33b857c317f0",
+  "registryHashes": {
+    "characters": "1922c1522ed70592bebfc099d7173e715fbfbdb4a0bf95cf76acb26254748fcf",
+    "actions": "66708615c233c6f6998025976477367dc136f9e6c15b338de1cba85d6503243c",
+    "cameras": "cd5757b6425d2c125df1aff596c0a794ce986d6a9d7e1e0c2811051b7b338863",
+    "backgrounds": "79945ef818ff23de6dc04c905d3455b6b0f5808eb96e6047a09a226c827ecd1e",
+    "policy": "bcf50f505b227c98aa82670531ea1bbb27a6dafa3828e615a99a4b107519874c"
+  },
+  "assets": [
+    {
+      "file": "assets/art/apartment/far.png",
+      "source": "production/assets/art/apartment/far.png",
+      "sha256": "3c90a535325dfb67a3a39ca764de39aa315f400f8dc6971c7a928a467aae1bd2",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/apartment/mid.png",
+      "source": "production/assets/art/apartment/mid.png",
+      "sha256": "c5790c08a408022ff38efc5e999469d94bae988c5c81fcedf272731a884afbaf",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/apartment/fore.png",
+      "source": "production/assets/art/apartment/fore.png",
+      "sha256": "bfb298fbbf4a36ab4abe29b7265d3d137ddda8ad0dae3ec3f33dc60fe17a4502",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/street/far.png",
+      "source": "production/assets/art/street/far.png",
+      "sha256": "67948a43a5f8b40048f4593253f64acf5fb645f03b78adf43722a73b3a2bd45c",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/street/mid.png",
+      "source": "production/assets/art/street/mid.png",
+      "sha256": "d59f90a680aa1d874c7de3dc975742b27817ed3fb7f4f44cbd1d2b7d9a49c04b",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/street/fore.png",
+      "source": "production/assets/art/street/fore.png",
+      "sha256": "545e017df0c5a4ccd871af4713b9a68eba7903f258d01d5db7e7257fbc19afab",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    }
+  ],
+  "jobConfigSha256": "f2940ba28e04ef69be83e72dfe31c8593f9b249fd505a781ea5645f1bbb4c64e",
+  "storySha256": "348c54dcdba22d80b8981949057bdfb1ee6678a9832259541421ed82fc23f1ce",
+  "eventConfigSha256": "2a1d5b90b7509e88fb86bc71bf1e2db6e5f85cf885190247d8ce95489c44c974",
+  "noStorySpecificJS": true,
+  "audioFiles": [
+    {
+      "file": "assets/vo/b01.wav",
+      "sha256": "b737ef09dd9317d8125d3cbac86c762637b35b5b362df9eb9e146f0f74e135dd"
+    },
+    {
+      "file": "assets/vo/b02.wav",
+      "sha256": "bfee85ffb1c8a092f516fbddcb35095b6feb0071c8558b98791eafdef5713c18"
+    }
+  ],
+  "sourceRecording": {
+    "file": "<checkout>/production/test/fixtures/door.flac",
+    "sha256": "6abd1063a303bdc4b325d5b60c4a56fedd49bde128994ab6b65ff8406bb97761"
+  },
+  "generatedScenesSha256": "6bb3d5e4bdcde0d2c0ff124b4fbe80de0a06b6f3d897d3b45341612099e03c56"
+}

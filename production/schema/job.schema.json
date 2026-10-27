@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Stickman production job v1",
+  "type": "object",
+  "required": [
+    "version",
+    "id",
+    "title",
+    "story",
+    "audio"
+  ],
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "story": {
+      "type": "string",
+      "description": "UTF-8 English story, blank line per narrative beat. Numbers spelled out."
+    },
+    "events": {
+      "type": "string",
+      "description": "Codex-reviewed semantic-event data, not JavaScript"
+    },
+    "targetSeconds": {
+      "type": "number",
+      "minimum": 10,
+      "maximum": 720
+    },
+    "format": {
+      "const": "16:9"
+    },
+    "audio": {
+      "type": "object",
+      "required": [
+        "mode"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "tts",
+            "recording"
+          ]
+        },
+        "file": {
+          "type": "string"
+        },
+        "alignment": {
+          "type": "string"
+        },
+        "voice": {
+          "type": "string"
+        },
+        "speed": {
+          "type": "number",
+          "minimum": 0.8,
+          "maximum": 1.2
+        },
+        "alignWords": {
+          "type": "boolean"
+        }
+      }
+    },
+    "config": {
+      "type": "object",
+      "properties": {
+        "characters": {
+          "type": "string"
+        },
+        "actions": {
+          "type": "string"
+        },
+        "cameras": {
+          "type": "string"
+        },
+        "backgrounds": {
+          "type": "string"
+        },
+        "policy": {
+          "type": "string"
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "directory": {
+          "type": "string",
+          "description": "Repository-relative child of videos/"
+        },
+        "width": {
+          "const": 1920
+        },
+        "height": {
+          "const": 1080
+        },
+        "fps": {
+          "const": 30
+        }
+      }
+    }
+  }
+}

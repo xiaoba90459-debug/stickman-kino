@@ -1,0 +1,244 @@
+{
+  "reachChecks": [
+    {
+      "scene": "b01",
+      "verb": "open",
+      "target": "door",
+      "errorPixels": 0.00567626953125
+    },
+    {
+      "scene": "b03",
+      "verb": "close",
+      "target": "door",
+      "errorPixels": 0.00567626953125
+    },
+    {
+      "scene": "b03",
+      "verb": "open",
+      "target": "door",
+      "errorPixels": 0.00579833984375
+    },
+    {
+      "scene": "b07",
+      "verb": "reach",
+      "target": "key",
+      "errorPixels": 0.011159256431186839
+    },
+    {
+      "scene": "b08",
+      "verb": "close",
+      "target": "door",
+      "errorPixels": 0.0021318663570035375
+    },
+    {
+      "scene": "b09",
+      "verb": "open",
+      "target": "door",
+      "errorPixels": 0.005859375
+    },
+    {
+      "scene": "b20",
+      "verb": "reach",
+      "target": "door",
+      "errorPixels": 0.0021318663570035375
+    }
+  ],
+  "frameCount": 2400,
+  "invalidTransforms": 0,
+  "subtitleOverlap": 0,
+  "subtitleBounds": 0,
+  "textCollisions": 0,
+  "collisionExamples": [],
+  "identities": {
+    "eli": [
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Eli\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#d99553\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"hair\":\"spiky\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}"
+    ],
+    "older-eli": [
+      "{\"name\":\"Older Eli\",\"size\":540,\"color\":\"#354352\",\"paper\":\"#f1d6b4\",\"shirt\":\"#c5c8b4\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Older Eli\",\"size\":540,\"color\":\"#354352\",\"paper\":\"#f1d6b4\",\"shirt\":\"#c5c8b4\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}",
+      "{\"name\":\"Older Eli\",\"size\":540,\"color\":\"#354352\",\"paper\":\"#f1d6b4\",\"shirt\":\"#c5c8b4\",\"shorts\":\"#344153\",\"hat\":\"beanie\",\"hatColor\":\"#728eaa\",\"face\":\"dots\",\"glasses\":true,\"stroke\":0.027}"
+    ]
+  },
+  "motion": [
+    {
+      "scene": "b01",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.1,
+      "meaningfulActions": [
+        "open",
+        "startle"
+      ]
+    },
+    {
+      "scene": "b02",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": []
+    },
+    {
+      "scene": "b03",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.7333333333333334,
+      "meaningfulActions": [
+        "close",
+        "open"
+      ]
+    },
+    {
+      "scene": "b04",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1,
+      "meaningfulActions": [
+        "startle",
+        "look-back"
+      ]
+    },
+    {
+      "scene": "b05",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": []
+    },
+    {
+      "scene": "b06",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": []
+    },
+    {
+      "scene": "b07",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.0333333333333334,
+      "meaningfulActions": [
+        "reach",
+        "hesitate"
+      ]
+    },
+    {
+      "scene": "b08",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.5,
+      "meaningfulActions": [
+        "close",
+        "vanish"
+      ]
+    },
+    {
+      "scene": "b09",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.3333333333333333,
+      "meaningfulActions": [
+        "walk",
+        "open"
+      ]
+    },
+    {
+      "scene": "b10",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.0333333333333334,
+      "meaningfulActions": [
+        "hesitate",
+        "look-back"
+      ]
+    },
+    {
+      "scene": "b11",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.8,
+      "meaningfulActions": [
+        "startle",
+        "observe"
+      ]
+    },
+    {
+      "scene": "b12",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.1666666666666667,
+      "meaningfulActions": [
+        "point",
+        "hesitate"
+      ]
+    },
+    {
+      "scene": "b13",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": [
+        "shake"
+      ]
+    },
+    {
+      "scene": "b14",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.6333333333333333,
+      "meaningfulActions": [
+        "startle",
+        "look-back"
+      ]
+    },
+    {
+      "scene": "b15",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.8,
+      "meaningfulActions": [
+        "backstep",
+        "hesitate"
+      ]
+    },
+    {
+      "scene": "b16",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": []
+    },
+    {
+      "scene": "b17",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.1333333333333333,
+      "meaningfulActions": [
+        "backstep",
+        "refuse"
+      ]
+    },
+    {
+      "scene": "b18",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.7333333333333333,
+      "meaningfulActions": [
+        "observe",
+        "look-back"
+      ]
+    },
+    {
+      "scene": "b19",
+      "hasPrimary": false,
+      "maxPrimaryUnchangedSeconds": null,
+      "meaningfulActions": [
+        "shake"
+      ]
+    },
+    {
+      "scene": "b20",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.8,
+      "meaningfulActions": [
+        "reach",
+        "startle"
+      ]
+    }
+  ],
+  "seekDeterministic": true,
+  "pageErrors": []
+}

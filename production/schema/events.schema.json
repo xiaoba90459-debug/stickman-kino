@@ -1,0 +1,13 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"Semantic events for unchanged Stickman adapter",
+ "type":"object","required":["reviewed","reviewer","beats"],
+ "properties":{"reviewed":{"type":"boolean"},"reviewer":{"type":"string"},"beats":{"type":"array","minItems":1,"items":{"type":"object","required":["id","purpose","kind","setting","actors","props","actions"],"properties":{
+  "id":{"type":"string"},"purpose":{"type":"string","minLength":11},
+  "kind":{"enum":["action","reaction","insert","rule","diagram","compare","relationship","travel","ending"]},
+  "setting":{"enum":["apartment","street","subway","graphic"]},"year":{"type":["string","null"]},"actors":{"type":"array","maxItems":2,"items":{"type":"string"}},
+  "props":{"type":"array","items":{"type":"object","required":["id","type"],"properties":{"id":{"type":"string"},"type":{"enum":["door","document","key","clock","envelope","calendar","phone"]},"text":{"type":"string","maxLength":100}}}},
+  "actions":{"type":"array","items":{"type":"object","required":["verb"],"properties":{"actor":{"type":"string"},"verb":{"type":"string"},"target":{"type":"string"},"phase":{"type":"number","minimum":0,"maximum":0.9},"cue":{"type":"string"},"occurrence":{"type":"integer","minimum":0}}}},
+  "values":{"type":"array","minItems":2,"maxItems":4,"items":{"type":"string"}},"headline":{"type":"string"},"camera":{"type":"string"},"ruleMode":{"enum":["sequence","erase"]}
+ }}}}
+}

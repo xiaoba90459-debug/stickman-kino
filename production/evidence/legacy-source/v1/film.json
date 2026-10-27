@@ -1,0 +1,232 @@
+{
+  "$schema": "../../schema/film.schema.json",
+  "title": "What If Your Shadow Moved Three Seconds Before You?",
+  "format": "16:9",
+  "fps": 30,
+  "lang": "en",
+  "theme": {
+    "extends": "dark",
+    "bg": "#111b32",
+    "ink": "#fff2db",
+    "paper": "#ffe1be",
+    "muted": "#b8c8dc",
+    "soft": "#243955",
+    "accents": [
+      "#ff806c",
+      "#5ce0ce",
+      "#ffd272"
+    ],
+    "decor": null
+  },
+  "voice": {
+    "provider": "kokoro",
+    "voice": "af_heart",
+    "speed": 0.9,
+    "lufs": -16
+  },
+  "music": {
+    "style": "suspense",
+    "bpm": 78,
+    "seed": 31,
+    "lufs": -30,
+    "volume": 0.8
+  },
+  "captions": false,
+  "clips": [
+    {
+      "id": "street",
+      "label": "The impossible walk",
+      "duration": 6,
+      "voStart": 0.25,
+      "vo": "What if your shadow moved three seconds before you did?",
+      "visual": "Wide night street. Mira walks into lamplight. Wall shadow turns first; Mira turns exactly three seconds later.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.12
+        },
+        {
+          "at": 0.8,
+          "name": "tap",
+          "volume": 0.12
+        },
+        {
+          "at": 1.1,
+          "name": "whoosh",
+          "volume": 0.16
+        },
+        {
+          "at": 4.1,
+          "name": "heartbeat",
+          "volume": 0.25
+        }
+      ]
+    },
+    {
+      "id": "reaction",
+      "label": "Something is wrong",
+      "duration": 6,
+      "voStart": 0.25,
+      "vo": "Mira stopped. Her shadow looked back. Three seconds later, so did she.",
+      "visual": "Medium two-shot against a mauve wall. Shadow looks back first. Mira follows, then recoils in surprise.",
+      "sfx": [
+        {
+          "at": 0.45,
+          "name": "tick",
+          "volume": 0.2
+        },
+        {
+          "at": 3.45,
+          "name": "tick",
+          "volume": 0.3
+        },
+        {
+          "at": 4.35,
+          "name": "sting",
+          "volume": 0.22
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "label": "One simple test",
+      "duration": 6,
+      "voStart": 0.25,
+      "vo": "She raised one hand. The shadow had already done it.",
+      "visual": "Frontal wall test. Shadow raises hand at 0.55s; Mira at 3.55s. Three one-second clock beats make the lead visible.",
+      "sfx": [
+        {
+          "at": 0.55,
+          "name": "tick",
+          "volume": 0.28
+        },
+        {
+          "at": 1.55,
+          "name": "tick",
+          "volume": 0.28
+        },
+        {
+          "at": 2.55,
+          "name": "tick",
+          "volume": 0.28
+        },
+        {
+          "at": 3.55,
+          "name": "ding",
+          "volume": 0.22
+        }
+      ]
+    },
+    {
+      "id": "danger",
+      "label": "A warning, not a mistake",
+      "duration": 6,
+      "voStart": 0.25,
+      "vo": "Then it ducked. Mira followed, just before the sign fell.",
+      "visual": "Wide alley. Shadow crouches at 0.55s; Mira at 3.55s. Suspended sign breaks at 4.05s and crashes beyond her.",
+      "sfx": [
+        {
+          "at": 0.55,
+          "name": "whoosh",
+          "volume": 0.2
+        },
+        {
+          "at": 3.55,
+          "name": "whoosh",
+          "volume": 0.3
+        },
+        {
+          "at": 4.05,
+          "name": "zip",
+          "volume": 0.3
+        },
+        {
+          "at": 4.62,
+          "name": "impact",
+          "volume": 0.48
+        }
+      ]
+    },
+    {
+      "id": "realization",
+      "label": "The close-up",
+      "duration": 5,
+      "voStart": 0.25,
+      "vo": "It wasn't copying her. It was keeping her alive.",
+      "visual": "Face and upper-body close-up. Mira looks at the fallen sign, then toward the shadow. Fear softens into understanding.",
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "heartbeat",
+          "volume": 0.2
+        },
+        {
+          "at": 3.4,
+          "name": "chime",
+          "volume": 0.15
+        }
+      ]
+    },
+    {
+      "id": "door",
+      "label": "Listen to the warning",
+      "duration": 6,
+      "voStart": 0.25,
+      "vo": "At her door, it pointed away. This time, Mira listened.",
+      "visual": "Oblique doorway composition. Shadow points away at 0.5s. Mira turns at 3.5s and starts walking back, away from the red door.",
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "riser",
+          "volume": 0.12
+        },
+        {
+          "at": 3.5,
+          "name": "tap",
+          "volume": 0.2
+        },
+        {
+          "at": 4.2,
+          "name": "tap",
+          "volume": 0.2
+        },
+        {
+          "at": 4.8,
+          "name": "tap",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "label": "The shadow stays",
+      "duration": 6,
+      "voStart": 0.25,
+      "vo": "But when she walked away... whose shadow stayed behind?",
+      "visual": "Wide pull-back. Mira leaves left. Her shadow remains beside the shut door and waves on its own. Hold the unanswered question.",
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "tap",
+          "volume": 0.14
+        },
+        {
+          "at": 1,
+          "name": "tap",
+          "volume": 0.12
+        },
+        {
+          "at": 2.6,
+          "name": "heartbeat",
+          "volume": 0.24
+        },
+        {
+          "at": 4.3,
+          "name": "sting",
+          "volume": 0.22
+        }
+      ]
+    }
+  ]
+}

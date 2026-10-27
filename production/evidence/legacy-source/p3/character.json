@@ -1,0 +1,27 @@
+{
+  "id": "mira",
+  "origin": "Existing Mira design from V1/V2/AB; styling changes only inside new phase3 film",
+  "base": {
+    "color": "#29384a",
+    "shirt": "#48aaa3",
+    "shorts": "#344153",
+    "hat": "beret",
+    "hatColor": "#ed8775",
+    "hair": "ponytail",
+    "face": "dots",
+    "stroke": 0.027
+  },
+  "skin": "#f2dcc1",
+  "scarf": "#ecc677",
+  "earring": "#ecc677",
+  "shadow": {
+    "filter": "brightness(0)",
+    "opacity": {
+      "street": 0.55,
+      "apartment": 0.38,
+      "subway": 0.5
+    },
+    "projection": "same rig, no face, shallow skew about groundY; cast link joins feet until deliberate separation"
+  },
+  "continuity": "same proportions and style tokens for every shot; size changes are shot scale/depth, not rig deformation"
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "file": "acceptance-clock.mp4",
+  "bytes": 9059404,
+  "sha256": "025c80fd3552c13d14fa54fd02a767d5dc2b5ae8a508d37c418e66894fbc4947",
+  "duration": 14,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 420
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": "48000",
+    "rmsRangeDbfs": [
+      -47.562885468089334,
+      -18.3301954463632
+    ],
+    "decodedPeakDbfs": -4.398096502959533
+  },
+  "fullDecode": "no FFmpeg errors",
+  "fullFrameBlackdetect": "no near-black intervals >=1 frame",
+  "rmsPerSecond": [
+    -20.43033436821446,
+    -22.394208000076162,
+    -33.20732443084475,
+    -35.50498518205068,
+    -18.337280492676165,
+    -22.16962258302308,
+    -18.3301954463632,
+    -29.679504422945957,
+    -33.38778276600542,
+    -35.73887148832553,
+    -19.00064695112754,
+    -22.69475275389965,
+    -44.08084910158419,
+    -47.562885468089334
+  ],
+  "caveat": "Technical decoding and signal checks do not replace listening or semantic/visual review."
+}

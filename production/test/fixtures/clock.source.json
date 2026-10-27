@@ -1,0 +1,7 @@
+{
+  "sourceFilm": "clock-config-reuse",
+  "fixtureSeconds": 14,
+  "paragraphCount": 3,
+  "voice": "Previously generated cloud Kokoro af_heart recording, no new TTS calls",
+  "purpose": "Input fixtures; not evidence of era-specific art generation"
+}

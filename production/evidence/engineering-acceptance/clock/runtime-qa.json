@@ -1,0 +1,47 @@
+{
+  "reachChecks": [],
+  "frameCount": 420,
+  "invalidTransforms": 0,
+  "subtitleOverlap": 0,
+  "subtitleBounds": 0,
+  "textCollisions": 0,
+  "collisionExamples": [],
+  "identities": {
+    "eli": [
+      "{\"name\":\"Nora\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#769b84\",\"shorts\":\"#344153\",\"hat\":\"cap\",\"hatColor\":\"#c4767d\",\"hair\":\"bob\",\"face\":\"dots\",\"glasses\":false,\"stroke\":0.027}",
+      "{\"name\":\"Nora\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#769b84\",\"shorts\":\"#344153\",\"hat\":\"cap\",\"hatColor\":\"#c4767d\",\"hair\":\"bob\",\"face\":\"dots\",\"glasses\":false,\"stroke\":0.027}",
+      "{\"name\":\"Nora\",\"size\":540,\"color\":\"#29384a\",\"paper\":\"#f1d6b4\",\"shirt\":\"#769b84\",\"shorts\":\"#344153\",\"hat\":\"cap\",\"hatColor\":\"#c4767d\",\"hair\":\"bob\",\"face\":\"dots\",\"glasses\":false,\"stroke\":0.027}"
+    ]
+  },
+  "motion": [
+    {
+      "scene": "b01",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.6666666666666666,
+      "meaningfulActions": [
+        "read",
+        "hesitate"
+      ]
+    },
+    {
+      "scene": "b02",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 1.3666666666666667,
+      "meaningfulActions": [
+        "point",
+        "shake"
+      ]
+    },
+    {
+      "scene": "b03",
+      "hasPrimary": true,
+      "maxPrimaryUnchangedSeconds": 0.8,
+      "meaningfulActions": [
+        "startle",
+        "look-back"
+      ]
+    }
+  ],
+  "seekDeterministic": true,
+  "pageErrors": []
+}
