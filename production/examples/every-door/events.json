@@ -1,0 +1,561 @@
+{
+  "reviewed": true,
+  "reviewer": "Codex narrative planning; configuration only, no story-specific JS",
+  "beats": [
+    {
+      "id": "b01",
+      "purpose": "Show a door opening onto the wrong time immediately",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "1912",
+          "color": "#527c8d"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "open",
+          "phase": 0.08,
+          "target": "door"
+        },
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.62
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b02",
+      "purpose": "Give concrete evidence for the first time displacement",
+      "kind": "insert",
+      "setting": "street",
+      "year": "1912",
+      "props": [
+        {
+          "id": "paper",
+          "type": "document",
+          "text": "DAILY NEWS\n1912"
+        }
+      ],
+      "actions": [],
+      "actors": []
+    },
+    {
+      "id": "b03",
+      "purpose": "Test whether reopening preserves the destination",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "open",
+          "text": "1912",
+          "color": "#527c8d",
+          "revealText": "2089"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "close",
+          "phase": 0.05,
+          "target": "door"
+        },
+        {
+          "actor": "eli",
+          "verb": "open",
+          "phase": 0.56,
+          "target": "door"
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b04",
+      "purpose": "A second destination proves this is not one historical portal",
+      "kind": "reaction",
+      "setting": "street",
+      "year": "2089",
+      "props": [
+        {
+          "id": "paper",
+          "type": "document",
+          "text": "CITY EDITION\n2089"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.08
+        },
+        {
+          "actor": "eli",
+          "verb": "look-back",
+          "phase": 0.6
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b05",
+      "purpose": "Explain the random-year rule once",
+      "kind": "rule",
+      "setting": "graphic",
+      "year": null,
+      "props": [],
+      "actions": [],
+      "actors": [],
+      "values": [
+        "1912",
+        "2089",
+        "2049"
+      ],
+      "headline": "ONE DOOR. A NEW YEAR.",
+      "ruleMode": "sequence"
+    },
+    {
+      "id": "b06",
+      "purpose": "Explain the irreversible cost rather than repeat the first rule",
+      "kind": "rule",
+      "setting": "graphic",
+      "year": null,
+      "props": [],
+      "actions": [],
+      "actors": [],
+      "values": [
+        "OPEN",
+        "CLOSE",
+        "NO RETURN"
+      ],
+      "headline": "CLOSING ERASES THE WAY BACK",
+      "ruleMode": "erase"
+    },
+    {
+      "id": "b07",
+      "purpose": "Attempt a physical marker so the character has a plan",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "open",
+          "text": "?",
+          "color": "#527c8d"
+        },
+        {
+          "id": "key",
+          "type": "key",
+          "x": 1110,
+          "y": 590,
+          "size": 105
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "reach",
+          "phase": 0.1,
+          "target": "key"
+        },
+        {
+          "actor": "eli",
+          "verb": "hesitate",
+          "phase": 0.64
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b08",
+      "purpose": "Destroy the attempted solution visibly",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "open",
+          "text": "?",
+          "color": "#527c8d"
+        },
+        {
+          "id": "key",
+          "type": "key",
+          "x": 1110,
+          "y": 590,
+          "size": 105
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "close",
+          "phase": 0.08,
+          "target": "door"
+        },
+        {
+          "verb": "vanish",
+          "target": "key",
+          "phase": 0.38,
+          "meaning": "Marker is erased with the closed doorway"
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b09",
+      "purpose": "The failed plan forces continued searching",
+      "kind": "travel",
+      "setting": "street",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "2049",
+          "color": "#527c8d"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "walk",
+          "phase": 0.04
+        },
+        {
+          "actor": "eli",
+          "verb": "open",
+          "phase": 0.73,
+          "target": "door"
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b10",
+      "purpose": "Return to a familiar space made unfamiliar by time",
+      "kind": "action",
+      "setting": "apartment",
+      "year": "2049",
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "open",
+          "text": "2049",
+          "color": "#527c8d"
+        },
+        {
+          "id": "paper",
+          "type": "document",
+          "text": "ELI\nFORTY YEARS LATER"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "hesitate",
+          "phase": 0.1
+        },
+        {
+          "actor": "eli",
+          "verb": "look-back",
+          "phase": 0.65
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b11",
+      "purpose": "Reveal that the apparent home contains another person",
+      "kind": "relationship",
+      "setting": "apartment",
+      "year": "2049",
+      "props": [],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.1
+        },
+        {
+          "actor": "older-eli",
+          "verb": "observe",
+          "phase": 0.55
+        }
+      ],
+      "actors": [
+        "eli",
+        "older-eli"
+      ]
+    },
+    {
+      "id": "b12",
+      "purpose": "The future self supplies a specific forbidden choice",
+      "kind": "relationship",
+      "setting": "apartment",
+      "year": "2049",
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "?",
+          "color": "#477bad"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "older-eli",
+          "verb": "point",
+          "phase": 0.08,
+          "target": "door"
+        },
+        {
+          "actor": "eli",
+          "verb": "hesitate",
+          "phase": 0.55
+        }
+      ],
+      "actors": [
+        "eli",
+        "older-eli"
+      ]
+    },
+    {
+      "id": "b13",
+      "purpose": "The forbidden object acts on its own, raising pressure",
+      "kind": "insert",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "?",
+          "color": "#477bad"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "shake",
+          "target": "door",
+          "phase": 0.12
+        }
+      ],
+      "actors": []
+    },
+    {
+      "id": "b14",
+      "purpose": "Show fear in the experienced self rather than repeat a warning",
+      "kind": "reaction",
+      "setting": "apartment",
+      "year": null,
+      "props": [],
+      "actions": [
+        {
+          "actor": "older-eli",
+          "verb": "startle",
+          "phase": 0.1
+        },
+        {
+          "actor": "older-eli",
+          "verb": "look-back",
+          "phase": 0.65
+        }
+      ],
+      "actors": [
+        "older-eli"
+      ]
+    },
+    {
+      "id": "b15",
+      "purpose": "The protagonist responds by withdrawing, not mechanically entering",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "?",
+          "color": "#477bad"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "backstep",
+          "phase": 0.08
+        },
+        {
+          "actor": "eli",
+          "verb": "hesitate",
+          "phase": 0.6
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b16",
+      "purpose": "Reframe the stakes from tourism to choices",
+      "kind": "rule",
+      "setting": "graphic",
+      "year": null,
+      "props": [],
+      "actions": [],
+      "actors": [],
+      "values": [
+        "DOOR",
+        "CHOICE",
+        "CONSEQUENCE"
+      ],
+      "headline": "A CHOICE. NOT A DESTINATION.",
+      "ruleMode": "sequence"
+    },
+    {
+      "id": "b17",
+      "purpose": "Make refusal a visible active decision",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "?",
+          "color": "#477bad"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "backstep",
+          "phase": 0.08
+        },
+        {
+          "actor": "eli",
+          "verb": "refuse",
+          "phase": 0.6
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b18",
+      "purpose": "A short controlled pause creates anticipation",
+      "kind": "reaction",
+      "setting": "apartment",
+      "year": null,
+      "props": [],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "observe",
+          "phase": 0.06
+        },
+        {
+          "actor": "eli",
+          "verb": "look-back",
+          "phase": 0.64
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b19",
+      "purpose": "The unreachable other side initiates contact",
+      "kind": "insert",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "?",
+          "color": "#477bad"
+        }
+      ],
+      "actions": [
+        {
+          "verb": "shake",
+          "target": "door",
+          "phase": 0.12
+        }
+      ],
+      "actors": []
+    },
+    {
+      "id": "b20",
+      "purpose": "The family relationship creates a specific unresolved future",
+      "kind": "ending",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "?",
+          "color": "#477bad"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "reach",
+          "phase": 0.1,
+          "target": "door"
+        },
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.64
+        }
+      ],
+      "actors": [
+        "eli"
+      ],
+      "headline": "DAD? IS THAT YOU?"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "file": "clock-config-reuse.mp4",
+  "bytes": 9331665,
+  "sha256": "698c5ee3bf8d8bf59db6b2b8ae96386ae2cfdc69c7d93ad4b11100a0a5494a55",
+  "duration": 14,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 420
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": "48000",
+    "rmsRangeDbfs": [
+      -47.58488960480012,
+      -18.325501209366283
+    ],
+    "decodedPeakDbfs": -4.463434125734899
+  },
+  "fullDecode": "no FFmpeg errors",
+  "fullFrameBlackdetect": "no near-black intervals >=1 frame",
+  "rmsPerSecond": [
+    -20.43821163297878,
+    -22.402590896373226,
+    -33.22269887781344,
+    -35.50389764200594,
+    -18.333012723317335,
+    -22.14269578562195,
+    -18.325501209366283,
+    -29.69348435932104,
+    -33.38348694201624,
+    -35.74164268538328,
+    -19.00869502592196,
+    -22.70125731647392,
+    -44.09193331795209,
+    -47.58488960480012
+  ],
+  "caveat": "Technical decoding and signal checks do not replace listening or semantic/visual review."
+}

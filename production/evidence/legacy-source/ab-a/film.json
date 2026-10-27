@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/film.schema.json",
+  "title": "[A] Three Seconds Ahead \u2014 15s visual experiment",
+  "format": "16:9",
+  "fps": 30,
+  "lang": "en",
+  "theme": {
+    "extends": "dark",
+    "bg": "#111b32",
+    "ink": "#fff2db",
+    "paper": "#ffe1be",
+    "muted": "#b8c8dc",
+    "soft": "#243955",
+    "accents": [
+      "#ff806c",
+      "#5ce0ce",
+      "#ffd272"
+    ],
+    "decor": null
+  },
+  "voice": {
+    "provider": "files",
+    "voice": "af_heart",
+    "speed": 0.9,
+    "lufs": -16
+  },
+  "music": {
+    "style": "suspense",
+    "bpm": 78,
+    "seed": 31,
+    "lufs": -30,
+    "volume": 0.8
+  },
+  "captions": false,
+  "clips": [
+    {
+      "id": "enter",
+      "duration": 5,
+      "voStart": 0.15,
+      "label": "Wide / walk and anticipation",
+      "vo": "Mira walked inside. Her shadow lifted a hand.",
+      "visual": "Identical actor walks x500 to780; shadow raises at2s. Shared slow push. Only scenery treatment changes.",
+      "sfx": [
+        {
+          "at": 0.35,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 0.95,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 1.55,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 2,
+          "name": "whoosh",
+          "volume": 0.14
+        }
+      ]
+    },
+    {
+      "id": "respond",
+      "duration": 5,
+      "voStart": 0.15,
+      "label": "Medium / hand response",
+      "vo": "Three seconds later, her own hand followed.",
+      "visual": "Shadow hand is already raised; Mira repeats at global5s. Identical medium push and pan.",
+      "sfx": [
+        {
+          "at": 0.05,
+          "name": "ding",
+          "volume": 0.16
+        },
+        {
+          "at": 2.6,
+          "name": "heartbeat",
+          "volume": 0.13
+        }
+      ]
+    },
+    {
+      "id": "emotion",
+      "duration": 5,
+      "voStart": 0.15,
+      "label": "Close / emotional reaction",
+      "vo": "Was it a warning, or an invitation?",
+      "visual": "Same facial expressions, head turns and close push-in. No location signs or overlapping title.",
+      "sfx": [
+        {
+          "at": 1.4,
+          "name": "heartbeat",
+          "volume": 0.15
+        },
+        {
+          "at": 3.6,
+          "name": "sting",
+          "volume": 0.13
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "reviewed": true,
+  "reviewer": "Codex configuration-only reuse test",
+  "beats": [
+    {
+      "id": "b01",
+      "purpose": "An unmarked clock creates curiosity",
+      "kind": "action",
+      "setting": "apartment",
+      "actors": [
+        "eli"
+      ],
+      "props": [
+        {
+          "id": "clock",
+          "type": "clock",
+          "x": 1240,
+          "y": 500,
+          "size": 240
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "read",
+          "phase": 0.08
+        },
+        {
+          "actor": "eli",
+          "verb": "hesitate",
+          "phase": 0.64
+        }
+      ]
+    },
+    {
+      "id": "b02",
+      "purpose": "A gesture changes the clock",
+      "kind": "action",
+      "setting": "apartment",
+      "actors": [
+        "eli"
+      ],
+      "props": [
+        {
+          "id": "clock",
+          "type": "clock",
+          "x": 1240,
+          "y": 500,
+          "size": 240
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "point",
+          "phase": 0.1,
+          "target": "clock"
+        },
+        {
+          "verb": "shake",
+          "target": "clock",
+          "phase": 0.6
+        }
+      ]
+    },
+    {
+      "id": "b03",
+      "purpose": "An impossible response creates a mystery",
+      "kind": "reaction",
+      "setting": "apartment",
+      "actors": [
+        "eli"
+      ],
+      "props": [],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.1
+        },
+        {
+          "actor": "eli",
+          "verb": "look-back",
+          "phase": 0.64
+        }
+      ]
+    }
+  ]
+}

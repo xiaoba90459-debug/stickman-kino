@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "id": "acceptance-clock",
+  "title": "The Clock That Knew Her Name \u2014 short reproduction fixture",
+  "story": "clock.txt",
+  "events": "clock.events.json",
+  "targetSeconds": 14,
+  "format": "16:9",
+  "audio": {
+    "mode": "recording",
+    "file": "clock.flac"
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "directory": "videos/acceptance-clock"
+  },
+  "config": {
+    "characters": "clock.characters.json"
+  }
+}

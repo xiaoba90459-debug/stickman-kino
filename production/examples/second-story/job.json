@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "id": "clock-config-reuse",
+  "title": "The Clock That Knew Her Name",
+  "story": "story.txt",
+  "events": "events.json",
+  "targetSeconds": 14,
+  "format": "16:9",
+  "audio": {
+    "mode": "tts",
+    "voice": "af_heart",
+    "speed": 1.02,
+    "alignWords": true
+  },
+  "planning": {
+    "mode": "codex-reviewed-events",
+    "primaryCharacter": "eli"
+  },
+  "config": {
+    "characters": "characters.json"
+  }
+}

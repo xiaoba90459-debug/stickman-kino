@@ -1,0 +1,466 @@
+{
+  "version": 1,
+  "title": "What If Every Door Led to a Different Year? \u2014 short reproduction fixture",
+  "id": "acceptance-door",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 10,
+  "shots": [
+    {
+      "id": "b01",
+      "purpose": "Show a door opening onto the wrong time immediately",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "1912",
+          "color": "#527c8d"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "open",
+          "phase": 0.08,
+          "target": "door",
+          "at": 0.32,
+          "duration": 0.9
+        },
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.62,
+          "at": 2.48,
+          "duration": 0.3
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 3.35,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        }
+      ],
+      "actors": [
+        "eli"
+      ],
+      "start": 0,
+      "duration": 4,
+      "end": 4,
+      "renderKind": "layered",
+      "camera": {
+        "focus": [
+          960,
+          520,
+          1
+        ],
+        "end": [
+          990,
+          515,
+          1.04
+        ],
+        "actor": {
+          "x": 710,
+          "size": 535,
+          "ground": 850
+        }
+      },
+      "cameraId": "wide",
+      "stages": {
+        "eli": {
+          "x": 1000,
+          "size": 535,
+          "ground": 850,
+          "character": "eli"
+        }
+      },
+      "captions": [
+        {
+          "text": "Eli opened his apartment door.",
+          "start": 0.32,
+          "end": 1.6949999999999998
+        },
+        {
+          "text": "The hallway was gone.",
+          "start": 1.93,
+          "end": 3.035
+        }
+      ],
+      "sfx": [
+        {
+          "at": 0.72,
+          "name": "slide",
+          "volume": 0.16
+        }
+      ],
+      "narration": {
+        "text": "Eli opened his apartment door. The hallway was gone.",
+        "start": 0,
+        "duration": 4,
+        "alignment": "PocketSphinx 5.0.4 known-transcript forced alignment; 10ms acoustic frames"
+      },
+      "environment": "apartment"
+    },
+    {
+      "id": "b02",
+      "purpose": "Give concrete evidence for the first time displacement",
+      "kind": "insert",
+      "setting": "street",
+      "year": "1912",
+      "props": [
+        {
+          "id": "paper",
+          "type": "document",
+          "text": "DAILY NEWS\n1912"
+        }
+      ],
+      "actions": [],
+      "actors": [],
+      "start": 4,
+      "duration": 6,
+      "end": 10,
+      "renderKind": "layered",
+      "camera": {
+        "focus": [
+          1220,
+          495,
+          1.5
+        ],
+        "end": [
+          1240,
+          480,
+          1.58
+        ],
+        "actor": null
+      },
+      "cameraId": "object",
+      "stages": {},
+      "captions": [
+        {
+          "text": "A newspaper outside said nineteen",
+          "start": 0.9900000000000002,
+          "end": 2.8099999999999996
+        },
+        {
+          "text": "twelve.",
+          "start": 2.8099999999999996,
+          "end": 3.285
+        }
+      ],
+      "sfx": [],
+      "narration": {
+        "text": "A newspaper outside said nineteen twelve.",
+        "start": 0,
+        "duration": 4.733333,
+        "alignment": "PocketSphinx 5.0.4 known-transcript forced alignment; 10ms acoustic frames"
+      },
+      "environment": "street"
+    }
+  ],
+  "characters": {
+    "eli": {
+      "name": "Eli",
+      "size": 540,
+      "color": "#29384a",
+      "paper": "#f1d6b4",
+      "shirt": "#d99553",
+      "shorts": "#344153",
+      "hat": "beanie",
+      "hatColor": "#728eaa",
+      "hair": "spiky",
+      "face": "dots",
+      "glasses": true,
+      "stroke": 0.027
+    },
+    "older-eli": {
+      "name": "Older Eli",
+      "size": 540,
+      "color": "#354352",
+      "paper": "#f1d6b4",
+      "shirt": "#c5c8b4",
+      "shorts": "#344153",
+      "hat": "beanie",
+      "hatColor": "#728eaa",
+      "face": "dots",
+      "glasses": true,
+      "stroke": 0.027
+    }
+  },
+  "actions": {
+    "observe": {
+      "kind": "pose",
+      "pose": "stand",
+      "overrides": {
+        "H": -103
+      },
+      "emotion": "neutral",
+      "duration": 0.35
+    },
+    "look-back": {
+      "kind": "pose",
+      "pose": "stand",
+      "overrides": {
+        "H": -75
+      },
+      "emotion": "worried",
+      "duration": 0.35
+    },
+    "hesitate": {
+      "kind": "pose",
+      "pose": "think",
+      "emotion": "worried",
+      "duration": 0.45
+    },
+    "startle": {
+      "kind": "pose",
+      "pose": "scared",
+      "emotion": "surprised",
+      "duration": 0.3
+    },
+    "refuse": {
+      "kind": "pose",
+      "pose": "armsCross",
+      "emotion": "neutral",
+      "duration": 0.4
+    },
+    "walk": {
+      "kind": "locomotion",
+      "dx": 210,
+      "duration": 1.1,
+      "sfx": "tap"
+    },
+    "backstep": {
+      "kind": "locomotion",
+      "dx": -135,
+      "face": false,
+      "duration": 0.65,
+      "sfx": "tap"
+    },
+    "reach": {
+      "kind": "reach",
+      "duration": 0.45
+    },
+    "point": {
+      "kind": "point",
+      "duration": 0.5
+    },
+    "open": {
+      "kind": "door",
+      "state": "open",
+      "duration": 0.9,
+      "sfx": "slide",
+      "sfxOffset": 0.4
+    },
+    "close": {
+      "kind": "door",
+      "state": "closed",
+      "duration": 0.9,
+      "sfx": "thud",
+      "sfxOffset": 0.75
+    },
+    "knock": {
+      "kind": "knock",
+      "duration": 0.65,
+      "sfx": "tap",
+      "sfxOffset": 0.3
+    },
+    "read": {
+      "kind": "pose",
+      "pose": "think",
+      "overrides": {
+        "H": -80
+      },
+      "emotion": "worried",
+      "duration": 0.4
+    },
+    "wave": {
+      "kind": "wave",
+      "duration": 0.8
+    },
+    "turn": {
+      "kind": "turn",
+      "duration": 0.35
+    },
+    "breathe": {
+      "kind": "micro",
+      "duration": 0.3
+    },
+    "swim": {
+      "supported": false,
+      "reason": "No validated water/body interaction template"
+    },
+    "fight": {
+      "supported": false,
+      "reason": "No validated multi-character contact choreography"
+    },
+    "fly": {
+      "supported": false,
+      "reason": "No validated flight/body physics template"
+    },
+    "vanish": {
+      "kind": "prop-fade",
+      "duration": 0.35,
+      "sfx": "zip"
+    },
+    "shake": {
+      "kind": "prop-shake",
+      "duration": 0.7,
+      "sfx": "tap"
+    }
+  },
+  "backgrounds": {
+    "version": 1,
+    "backgrounds": {
+      "apartment": {
+        "kind": "layered",
+        "ground": 850,
+        "layers": [
+          {
+            "depth": "far",
+            "file": "../assets/art/apartment/far.png",
+            "svg": "../assets/art/apartment/far.svg",
+            "dx": 8,
+            "runtimeFile": "assets/art/apartment/far.png"
+          },
+          {
+            "depth": "mid",
+            "file": "../assets/art/apartment/mid.png",
+            "svg": "../assets/art/apartment/mid.svg",
+            "dx": -4,
+            "runtimeFile": "assets/art/apartment/mid.png"
+          },
+          {
+            "depth": "fore",
+            "file": "../assets/art/apartment/fore.png",
+            "svg": "../assets/art/apartment/fore.svg",
+            "dx": -22,
+            "runtimeFile": "assets/art/apartment/fore.png"
+          }
+        ],
+        "logicalBounds": [
+          -240,
+          -135,
+          2400,
+          1350
+        ],
+        "provenance": "adopted B assets; copied unchanged, original source files preserved"
+      },
+      "street": {
+        "kind": "layered",
+        "ground": 850,
+        "layers": [
+          {
+            "depth": "far",
+            "file": "../assets/art/street/far.png",
+            "svg": "../assets/art/street/far.svg",
+            "dx": 8,
+            "runtimeFile": "assets/art/street/far.png"
+          },
+          {
+            "depth": "mid",
+            "file": "../assets/art/street/mid.png",
+            "svg": "../assets/art/street/mid.svg",
+            "dx": -4,
+            "runtimeFile": "assets/art/street/mid.png"
+          },
+          {
+            "depth": "fore",
+            "file": "../assets/art/street/fore.png",
+            "svg": "../assets/art/street/fore.svg",
+            "dx": -22,
+            "runtimeFile": "assets/art/street/fore.png"
+          }
+        ],
+        "logicalBounds": [
+          -240,
+          -135,
+          2400,
+          1350
+        ],
+        "provenance": "adopted B assets; copied unchanged, original source files preserved"
+      },
+      "subway": {
+        "kind": "layered",
+        "ground": 850,
+        "layers": [
+          {
+            "depth": "far",
+            "file": "../assets/art/subway/far.png",
+            "svg": "../assets/art/subway/far.svg",
+            "dx": 8
+          },
+          {
+            "depth": "mid",
+            "file": "../assets/art/subway/mid.png",
+            "svg": "../assets/art/subway/mid.svg",
+            "dx": -4
+          },
+          {
+            "depth": "fore",
+            "file": "../assets/art/subway/fore.png",
+            "svg": "../assets/art/subway/fore.svg",
+            "dx": -22
+          }
+        ],
+        "logicalBounds": [
+          -240,
+          -135,
+          2400,
+          1350
+        ],
+        "provenance": "adopted B assets; copied unchanged, original source files preserved"
+      }
+    },
+    "graphic": {
+      "kind": "svg",
+      "background": "#173040"
+    }
+  },
+  "policy": {
+    "version": 1,
+    "minShotSeconds": 2.5,
+    "maxShotSeconds": 7,
+    "maxSameCompositionStreak": 1,
+    "captionFontSize": 70,
+    "captionWords": 5,
+    "captionSafeY": 1008,
+    "microActEverySeconds": 1.1,
+    "music": {
+      "style": "suspense",
+      "bpm": 82,
+      "seed": 73,
+      "lufs": -30,
+      "volume": 0.7
+    },
+    "render": {
+      "quality": "looks",
+      "fps": 30,
+      "workers": 2,
+      "timeoutSeconds": 2700
+    },
+    "limits": {
+      "maxAudioFileBytes": 200000000,
+      "maxGeneratedFileBytes": 1000000000,
+      "audioCommandTimeoutSeconds": 90,
+      "maxSeconds": 720
+    },
+    "validation": {
+      "60": "previous story rendered, general entry needs independent test",
+      "180": "configuration only, not end-to-end validated",
+      "600": "configuration only, not end-to-end validated"
+    },
+    "maxUnchangedPrimarySeconds": 2
+  },
+  "automation": {
+    "semanticPlanning": "Codex narrative planning; configuration only, no story-specific JS",
+    "shotLayout": "deterministic generic planner",
+    "timing": "measured audio; forced word alignment when words[] exists",
+    "runtime": "shared, byte-identical across stories",
+    "durationValidation": "requires actual render"
+  }
+}

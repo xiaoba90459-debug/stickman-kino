@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-27",
+  "baseMain": "d3d665301c0b62f04c885785e6bd6044de0785c6",
+  "environment": "Fresh isolated worktree, fresh npm ci with official CPU option and fresh PocketSphinx wheel; same managed Linux base image, not a newly provisioned VM",
+  "unitTests": 15,
+  "upstreamTests": 16,
+  "freshTtsModelDownload": "not tested",
+  "newLongVideoProduced": false,
+  "fixtures": [
+    {
+      "job": "production/test/fixtures/door.job.json",
+      "command": "node production/cli.mjs run production/test/fixtures/door.job.json",
+      "duration": 10,
+      "frames": 300,
+      "mediaStatus": "passed",
+      "shots": 2,
+      "runtimeSha256": "e201ee601bd0d0e5a469dad9e6f877a43dc8cec9fb978414c5cb33b857c317f0",
+      "coreSha256": "2a65b183a271a9d48bfe165546fdcd7c02c36e59098944d3905e925a836d37a5",
+      "storySha256": "348c54dcdba22d80b8981949057bdfb1ee6678a9832259541421ed82fc23f1ce",
+      "audioSha256": "6abd1063a303bdc4b325d5b60c4a56fedd49bde128994ab6b65ff8406bb97761",
+      "invalidTransforms": 0,
+      "subtitleOverlap": 0,
+      "textCollisions": 0,
+      "seekDeterministic": true,
+      "mp4Sha256": "8ef51856e583c924ced6937b3170e3b47c73138ee9630c8b316e0d07badfeb1e"
+    },
+    {
+      "job": "production/test/fixtures/clock.job.json",
+      "command": "node production/cli.mjs run production/test/fixtures/clock.job.json",
+      "duration": 14,
+      "frames": 420,
+      "mediaStatus": "passed",
+      "shots": 3,
+      "runtimeSha256": "e201ee601bd0d0e5a469dad9e6f877a43dc8cec9fb978414c5cb33b857c317f0",
+      "coreSha256": "2a65b183a271a9d48bfe165546fdcd7c02c36e59098944d3905e925a836d37a5",
+      "storySha256": "b3c5e9a3c7cd7e66276aa1cf25af0c5cc0d67d4cbd89e0efd7f2b2a874bbd9fb",
+      "audioSha256": "5e7a4c7d593dffb4b6f91cfe6b154aaf0169871f254db7d820e6a8a18676cfb6",
+      "invalidTransforms": 0,
+      "subtitleOverlap": 0,
+      "textCollisions": 0,
+      "seekDeterministic": true,
+      "mp4Sha256": "025c80fd3552c13d14fa54fd02a767d5dc2b5ae8a508d37c418e66894fbc4947"
+    }
+  ],
+  "sameCodeDifferentData": true
+}

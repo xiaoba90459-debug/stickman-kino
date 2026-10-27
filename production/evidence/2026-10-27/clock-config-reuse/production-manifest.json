@@ -1,0 +1,48 @@
+{
+  "job": "clock-config-reuse",
+  "productionCodeSha256": "dc3c3dab49630010367504e69ff7f016c1388f625f93cc4eba1645d727a07a76",
+  "sharedRuntimeSha256": "d89c594e43ea3b1cd268829d83d4caf3088813da4ff54098ae73830f9e334a05",
+  "registryHashes": {
+    "characters": "a24a71c56216c65d746ed01558cf08ca4ae914439fca6b84ac2b0012ce6a9931",
+    "actions": "66708615c233c6f6998025976477367dc136f9e6c15b338de1cba85d6503243c",
+    "cameras": "cd5757b6425d2c125df1aff596c0a794ce986d6a9d7e1e0c2811051b7b338863",
+    "backgrounds": "79945ef818ff23de6dc04c905d3455b6b0f5808eb96e6047a09a226c827ecd1e",
+    "policy": "bcf50f505b227c98aa82670531ea1bbb27a6dafa3828e615a99a4b107519874c"
+  },
+  "assets": [
+    {
+      "file": "assets/art/apartment/far.png",
+      "sha256": "3c90a535325dfb67a3a39ca764de39aa315f400f8dc6971c7a928a467aae1bd2",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/apartment/mid.png",
+      "sha256": "c5790c08a408022ff38efc5e999469d94bae988c5c81fcedf272731a884afbaf",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/apartment/fore.png",
+      "sha256": "bfb298fbbf4a36ab4abe29b7265d3d137ddda8ad0dae3ec3f33dc60fe17a4502",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    }
+  ],
+  "jobConfigSha256": "e3c68a68a53e3ec38afaa381740e01ceef8804a1f1bb67679c8793b32f1f34df",
+  "storySha256": "b3c5e9a3c7cd7e66276aa1cf25af0c5cc0d67d4cbd89e0efd7f2b2a874bbd9fb",
+  "eventConfigSha256": "e06fc0c3a0eb574c7f0889edf87c991e3602d4c1a7ed53c20b89d6f2170cd03a",
+  "noStorySpecificJS": true,
+  "audioFiles": [
+    {
+      "file": "assets/vo/b01.wav",
+      "sha256": "1122943493b186a9d407c860d4f3dfb05880c4af110a3ed729eea9407d85108b"
+    },
+    {
+      "file": "assets/vo/b02.wav",
+      "sha256": "ac2605fce2a344060df1661fbdded610f3240a9e667231f13f7fb390b7c3aff2"
+    },
+    {
+      "file": "assets/vo/b03.wav",
+      "sha256": "4e9e6bbe70c473e58f7228578551d82a8a8a58c10edf715d1306b84c09825cd4"
+    }
+  ],
+  "generatedScenesSha256": "e87cbf35a23eceb74ce1541068768b54429639171de983a0dc33fc4bdf0a44ef"
+}

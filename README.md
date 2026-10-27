@@ -224,3 +224,7 @@ Rendering by [HyperFrames](https://github.com/heygen-com/hyperframes) (Apache-2.
 [MIT](LICENSE) © [Prerit Ahuja](https://preritahuja.com/). Music and sound effects produced by Stickman Kino are generated from scratch and are yours to use. Chorus is a fictional product made up for the demo.
 
 If this is useful to you, a star helps other people find it.
+
+## Custom configuration-driven production (fork extension)
+
+The optional [production module](production/README.md) and [Codex Skill](skills/story-production/SKILL.md) compile reviewed story-event data through the original engine. They do not independently infer arbitrary story semantics or generate era-specific art. See the [engineering audit](production/docs/ENGINEERING-AUDIT.md) and [reproduction instructions](production/docs/RUN.md). Upstream engine/CLI source remains unchanged.

@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "actions": {
+    "observe": {
+      "kind": "pose",
+      "pose": "stand",
+      "overrides": {
+        "H": -103
+      },
+      "emotion": "neutral",
+      "duration": 0.35
+    },
+    "look-back": {
+      "kind": "pose",
+      "pose": "stand",
+      "overrides": {
+        "H": -75
+      },
+      "emotion": "worried",
+      "duration": 0.35
+    },
+    "hesitate": {
+      "kind": "pose",
+      "pose": "think",
+      "emotion": "worried",
+      "duration": 0.45
+    },
+    "startle": {
+      "kind": "pose",
+      "pose": "scared",
+      "emotion": "surprised",
+      "duration": 0.3
+    },
+    "refuse": {
+      "kind": "pose",
+      "pose": "armsCross",
+      "emotion": "neutral",
+      "duration": 0.4
+    },
+    "walk": {
+      "kind": "locomotion",
+      "dx": 210,
+      "duration": 1.1,
+      "sfx": "tap"
+    },
+    "backstep": {
+      "kind": "locomotion",
+      "dx": -135,
+      "face": false,
+      "duration": 0.65,
+      "sfx": "tap"
+    },
+    "reach": {
+      "kind": "reach",
+      "duration": 0.45
+    },
+    "point": {
+      "kind": "point",
+      "duration": 0.5
+    },
+    "open": {
+      "kind": "door",
+      "state": "open",
+      "duration": 0.9,
+      "sfx": "slide",
+      "sfxOffset": 0.4
+    },
+    "close": {
+      "kind": "door",
+      "state": "closed",
+      "duration": 0.9,
+      "sfx": "thud",
+      "sfxOffset": 0.75
+    },
+    "knock": {
+      "kind": "knock",
+      "duration": 0.65,
+      "sfx": "tap",
+      "sfxOffset": 0.3
+    },
+    "read": {
+      "kind": "pose",
+      "pose": "think",
+      "overrides": {
+        "H": -80
+      },
+      "emotion": "worried",
+      "duration": 0.4
+    },
+    "wave": {
+      "kind": "wave",
+      "duration": 0.8
+    },
+    "turn": {
+      "kind": "turn",
+      "duration": 0.35
+    },
+    "breathe": {
+      "kind": "micro",
+      "duration": 0.3
+    },
+    "swim": {
+      "supported": false,
+      "reason": "No validated water/body interaction template"
+    },
+    "fight": {
+      "supported": false,
+      "reason": "No validated multi-character contact choreography"
+    },
+    "fly": {
+      "supported": false,
+      "reason": "No validated flight/body physics template"
+    },
+    "vanish": {
+      "kind": "prop-fade",
+      "duration": 0.35,
+      "sfx": "zip"
+    },
+    "shake": {
+      "kind": "prop-shake",
+      "duration": 0.7,
+      "sfx": "tap"
+    }
+  }
+}

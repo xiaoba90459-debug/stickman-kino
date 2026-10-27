@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "file": "acceptance-door.mp4",
+  "bytes": 5567561,
+  "sha256": "8ef51856e583c924ced6937b3170e3b47c73138ee9630c8b316e0d07badfeb1e",
+  "duration": 10,
+  "video": {
+    "codec": "h264",
+    "width": 1920,
+    "height": 1080,
+    "fps": "30/1",
+    "frames": 300
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": "48000",
+    "rmsRangeDbfs": [
+      -49.26057764712767,
+      -18.9713256190645
+    ],
+    "decodedPeakDbfs": -4.396777160716841
+  },
+  "fullDecode": "no FFmpeg errors",
+  "fullFrameBlackdetect": "no near-black intervals >=1 frame",
+  "rmsPerSecond": [
+    -19.587585876183986,
+    -24.324993114978398,
+    -18.9713256190645,
+    -35.48973711654203,
+    -34.518153158359524,
+    -21.00877891411494,
+    -24.648638475528195,
+    -33.65518855518949,
+    -38.57370239853573,
+    -49.26057764712767
+  ],
+  "caveat": "Technical decoding and signal checks do not replace listening or semantic/visual review."
+}

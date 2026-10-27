@@ -1,0 +1,381 @@
+{
+  "$schema": "../../schema/film.schema.json",
+  "title": "Three Seconds Ahead \u2014 V2: The Choice",
+  "format": "16:9",
+  "fps": 30,
+  "lang": "en",
+  "theme": {
+    "extends": "dark",
+    "bg": "#111b32",
+    "ink": "#fff2db",
+    "paper": "#ffe1be",
+    "muted": "#b8c8dc",
+    "soft": "#243955",
+    "accents": [
+      "#ff806c",
+      "#5ce0ce",
+      "#ffd272"
+    ],
+    "decor": null
+  },
+  "voice": {
+    "provider": "files",
+    "voice": "af_heart",
+    "speed": 0.9,
+    "lufs": -16
+  },
+  "music": {
+    "style": "suspense",
+    "bpm": 78,
+    "seed": 31,
+    "lufs": -30,
+    "volume": 0.8
+  },
+  "captions": false,
+  "clips": [
+    {
+      "id": "hook",
+      "duration": 3.5,
+      "label": "Tracking / paradox",
+      "environment": "street",
+      "voStart": 0.15,
+      "vo": "What if your shadow knew your future?",
+      "visual": "A rainy street: Mira walks into a warm light while her silhouette raises its hand first.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "whoosh",
+          "volume": 0.18
+        },
+        {
+          "at": 0.4,
+          "name": "tap",
+          "volume": 0.12
+        },
+        {
+          "at": 1,
+          "name": "tap",
+          "volume": 0.12
+        }
+      ]
+    },
+    {
+      "id": "shock",
+      "duration": 3,
+      "label": "Reaction close-up",
+      "environment": "street",
+      "voStart": 0.15,
+      "vo": "Mira saw it move first.",
+      "visual": "Close-up: turn, wide eyes, backward step; umbrella edge and rain establish foreground depth.",
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "heartbeat",
+          "volume": 0.2
+        },
+        {
+          "at": 1.1,
+          "name": "tap",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "home-test",
+      "duration": 4.5,
+      "label": "Wide / hand test",
+      "environment": "apartment",
+      "voStart": 0.15,
+      "vo": "At home, she tested it.",
+      "visual": "Warm apartment: shadow raises an arm at .25, Mira at 3.25. Window, couch, bookcase, shelf and foreground plant.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "tick",
+          "volume": 0.22
+        },
+        {
+          "at": 3.25,
+          "name": "ding",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "rule",
+      "duration": 4.5,
+      "label": "Independent timing graphic",
+      "environment": "infographic",
+      "voStart": 0.15,
+      "vo": "It moved now. She followed three seconds later.",
+      "visual": "Two large actor cards and a 0\u20133 second timeline. The cursor and clock explain lead and delayed response.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tick",
+          "volume": 0.18
+        },
+        {
+          "at": 1.3,
+          "name": "tick",
+          "volume": 0.18
+        },
+        {
+          "at": 2.3,
+          "name": "tick",
+          "volume": 0.18
+        },
+        {
+          "at": 3.3,
+          "name": "ding",
+          "volume": 0.22
+        }
+      ]
+    },
+    {
+      "id": "shelf",
+      "duration": 4.5,
+      "label": "Medium / reach",
+      "environment": "apartment",
+      "voStart": 0.15,
+      "vo": "Then it reached toward the shelf.",
+      "visual": "Shadow reaches toward a flowerpot first. Mira repeats the reach exactly three seconds later.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "whoosh",
+          "volume": 0.16
+        },
+        {
+          "at": 3.25,
+          "name": "whoosh",
+          "volume": 0.16
+        }
+      ]
+    },
+    {
+      "id": "pot",
+      "duration": 2.5,
+      "label": "Object insert",
+      "environment": "apartment",
+      "voStart": 0.15,
+      "vo": "The flowerpot was slipping.",
+      "visual": "Extreme shelf insert: pot tilts toward its unsupported edge, dust drops. This adds new story information.",
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "typewriter",
+          "volume": 0.1
+        },
+        {
+          "at": 1.2,
+          "name": "click",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "dodge",
+      "duration": 5,
+      "label": "Wide / cause and effect",
+      "environment": "apartment",
+      "voStart": 0,
+      "vo": "It ducked. She ducked. Just in time.",
+      "visual": "Shadow crouches at .2, Mira at 3.2; pot falls at 3.45 and shatters safely in front of her.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "whoosh",
+          "volume": 0.16
+        },
+        {
+          "at": 3.2,
+          "name": "whoosh",
+          "volume": 0.25
+        },
+        {
+          "at": 3.9,
+          "name": "impact",
+          "volume": 0.42
+        },
+        {
+          "at": 4.15,
+          "name": "thud",
+          "volume": 0.15
+        }
+      ]
+    },
+    {
+      "id": "station",
+      "duration": 4,
+      "label": "Establish / movement",
+      "environment": "subway",
+      "voStart": 0.15,
+      "vo": "She followed it down to the subway.",
+      "visual": "Teal station with columns, route map, turnstiles, bench and yellow platform edge. Lateral tracking walk.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.14
+        },
+        {
+          "at": 0.9,
+          "name": "tap",
+          "volume": 0.14
+        },
+        {
+          "at": 1.5,
+          "name": "tap",
+          "volume": 0.14
+        },
+        {
+          "at": 2.1,
+          "name": "tap",
+          "volume": 0.14
+        }
+      ]
+    },
+    {
+      "id": "arrival",
+      "duration": 3,
+      "label": "Train insert",
+      "environment": "subway",
+      "voStart": 0.15,
+      "vo": "The next train was arriving.",
+      "visual": "Low track-level insert: rails, headlights and moving train; foreground pillar and rushing paper.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "riser",
+          "volume": 0.22
+        },
+        {
+          "at": 1.3,
+          "name": "whoosh",
+          "volume": 0.23
+        }
+      ]
+    },
+    {
+      "id": "retreat",
+      "duration": 5,
+      "label": "Medium / anticipation",
+      "environment": "subway",
+      "voStart": 0,
+      "vo": "Her shadow stepped back. She stepped back.",
+      "visual": "Shadow backs away from the yellow line at .25; Mira repeats at 3.25. The arriving train fills the background.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "tap",
+          "volume": 0.16
+        },
+        {
+          "at": 3.25,
+          "name": "tap",
+          "volume": 0.22
+        },
+        {
+          "at": 3.85,
+          "name": "whoosh",
+          "volume": 0.28
+        }
+      ]
+    },
+    {
+      "id": "relief",
+      "duration": 3.5,
+      "label": "Reaction / foreground train",
+      "environment": "subway",
+      "voStart": 0.15,
+      "vo": "A warning, not a glitch.",
+      "visual": "Moving train strips cross the foreground; tight face, exhale, shoulders relax, glance toward shadow.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "whoosh",
+          "volume": 0.16
+        },
+        {
+          "at": 1.6,
+          "name": "chime",
+          "volume": 0.15
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "duration": 4.5,
+      "label": "Two-shot / hands meet",
+      "environment": "subway",
+      "voStart": 0.15,
+      "vo": "She reached out. Could she change what came next?",
+      "visual": "Shadow extends its hand at .25. Mira reaches at 3.25. Their hands meet in a clear centered composition.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "heartbeat",
+          "volume": 0.16
+        },
+        {
+          "at": 3.55,
+          "name": "chime",
+          "volume": 0.22
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "duration": 3.5,
+      "label": "Decision close-up",
+      "environment": "subway",
+      "voStart": 0.15,
+      "vo": "This time, Mira chose to stay.",
+      "visual": "Mira turns from the open train, lowers her hand and takes a deliberate step back beside the bench.",
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "tap",
+          "volume": 0.17
+        },
+        {
+          "at": 1.5,
+          "name": "heartbeat",
+          "volume": 0.16
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "duration": 4,
+      "label": "Wide / rule break",
+      "environment": "subway",
+      "voStart": 0.15,
+      "vo": "The shadow boarded without her.",
+      "visual": "Mira stays. The silhouette walks into the lit train doorway alone. Doors close; final question fills the empty left third.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.14
+        },
+        {
+          "at": 1,
+          "name": "tap",
+          "volume": 0.14
+        },
+        {
+          "at": 2.6,
+          "name": "slide",
+          "volume": 0.2
+        },
+        {
+          "at": 3.1,
+          "name": "sting",
+          "volume": 0.2
+        }
+      ]
+    }
+  ]
+}

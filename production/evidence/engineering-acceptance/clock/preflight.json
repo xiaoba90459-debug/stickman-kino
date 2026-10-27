@@ -1,0 +1,7 @@
+{
+  "status": "technical-checks-passed",
+  "planSha256": "933a1714f79c414fa926654dbf0ca4c4bbb52ac97c49076662647a5d68b76a09",
+  "storyboard": "storyboard.md",
+  "snapshots": "snapshots/",
+  "visualReviewRequired": true
+}

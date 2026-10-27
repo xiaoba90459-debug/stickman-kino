@@ -1,0 +1,131 @@
+{
+  "job": "every-door-production",
+  "productionCodeSha256": "dc3c3dab49630010367504e69ff7f016c1388f625f93cc4eba1645d727a07a76",
+  "sharedRuntimeSha256": "d89c594e43ea3b1cd268829d83d4caf3088813da4ff54098ae73830f9e334a05",
+  "registryHashes": {
+    "characters": "1922c1522ed70592bebfc099d7173e715fbfbdb4a0bf95cf76acb26254748fcf",
+    "actions": "66708615c233c6f6998025976477367dc136f9e6c15b338de1cba85d6503243c",
+    "cameras": "cd5757b6425d2c125df1aff596c0a794ce986d6a9d7e1e0c2811051b7b338863",
+    "backgrounds": "79945ef818ff23de6dc04c905d3455b6b0f5808eb96e6047a09a226c827ecd1e",
+    "policy": "bcf50f505b227c98aa82670531ea1bbb27a6dafa3828e615a99a4b107519874c"
+  },
+  "assets": [
+    {
+      "file": "assets/art/apartment/far.png",
+      "sha256": "3c90a535325dfb67a3a39ca764de39aa315f400f8dc6971c7a928a467aae1bd2",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/apartment/mid.png",
+      "sha256": "c5790c08a408022ff38efc5e999469d94bae988c5c81fcedf272731a884afbaf",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/apartment/fore.png",
+      "sha256": "bfb298fbbf4a36ab4abe29b7265d3d137ddda8ad0dae3ec3f33dc60fe17a4502",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/street/far.png",
+      "sha256": "67948a43a5f8b40048f4593253f64acf5fb645f03b78adf43722a73b3a2bd45c",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/street/mid.png",
+      "sha256": "d59f90a680aa1d874c7de3dc975742b27817ed3fb7f4f44cbd1d2b7d9a49c04b",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    {
+      "file": "assets/art/street/fore.png",
+      "sha256": "545e017df0c5a4ccd871af4713b9a68eba7903f258d01d5db7e7257fbc19afab",
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    }
+  ],
+  "jobConfigSha256": "318997802d58cdcbacee9b5e467d9163114bf6e93dc55e6fba7c4ff8d4984bba",
+  "storySha256": "6797dcd0b98c22a49c211bec83a15f6e55e9d3b82bda24544c10cd59cab0078b",
+  "eventConfigSha256": "c7f9282d94f3d7b99c31b826640a49be7bd29d50b33f9ca994bb9ae8dedc4092",
+  "noStorySpecificJS": true,
+  "audioFiles": [
+    {
+      "file": "assets/vo/b01.wav",
+      "sha256": "a4ed32000c6b10eb4a8263a0d447a64eb47b0523c7994ef51137b017984d4aa0"
+    },
+    {
+      "file": "assets/vo/b02.wav",
+      "sha256": "ffca88bc04b396be2c3fa6685bb6678d5ee2babb0c2b5a87196a5926ac24f386"
+    },
+    {
+      "file": "assets/vo/b03.wav",
+      "sha256": "fdad30640ae16dc9b80af36aa5ba78365066bd9e5549ae19a09e19598dd769bb"
+    },
+    {
+      "file": "assets/vo/b04.wav",
+      "sha256": "e61f2630592472bc919ec0acba3234f5b81bf3e0850b2635b35832ee7ae87cf4"
+    },
+    {
+      "file": "assets/vo/b05.wav",
+      "sha256": "6fdc08e4450e86cbeea4e55eb88569e58c4938f3a4a3c163654d6b715b58f608"
+    },
+    {
+      "file": "assets/vo/b06.wav",
+      "sha256": "80e98aa168097ef405ac10e71eea5c9d751c84f393a0dd888ecf079a2ad75ff4"
+    },
+    {
+      "file": "assets/vo/b07.wav",
+      "sha256": "5c5b0e1c5b4ca1fd6396567310dcbfff0af0dd5a39ad5de5ad11cc4bfcde6e19"
+    },
+    {
+      "file": "assets/vo/b08.wav",
+      "sha256": "e85aa7dc8259917de04fee1ecce53bb3671c3760a3d9858fbbfcc66609ff0502"
+    },
+    {
+      "file": "assets/vo/b09.wav",
+      "sha256": "1c658a6a6ab7a32e78e52cc7aef2a76583941e74fbf2e2d14d4977c2c1751709"
+    },
+    {
+      "file": "assets/vo/b10.wav",
+      "sha256": "563e55f40f58032584c044181c85b6516fdaef50c1438ddb85e8edabccb2fc97"
+    },
+    {
+      "file": "assets/vo/b11.wav",
+      "sha256": "42d1f8c25f35d290f2bce0570a0772d2012ab8601fd74affd584b7ff8542223d"
+    },
+    {
+      "file": "assets/vo/b12.wav",
+      "sha256": "ce58b6b665f329851129f1eaa48e5f138d1e1b23af3434fb79327e25c162f74e"
+    },
+    {
+      "file": "assets/vo/b13.wav",
+      "sha256": "da02693c67d873496ac487e67f825698349766dc211322033c133510c84cdf89"
+    },
+    {
+      "file": "assets/vo/b14.wav",
+      "sha256": "ace8cee5dc1edb26b286e1e051aef7f4a5b18ceae720e08cd218b10a388339e6"
+    },
+    {
+      "file": "assets/vo/b15.wav",
+      "sha256": "f815d14da68dd6a0e9cfd22eccefba2c46544c321b930a9d7103e458696fd2e6"
+    },
+    {
+      "file": "assets/vo/b16.wav",
+      "sha256": "5796fb9569c1c4af7b728726ed25c7e68105e6eb2aa632b6be3764778cd610a9"
+    },
+    {
+      "file": "assets/vo/b17.wav",
+      "sha256": "3362b95e38ec8172ca9c482957447a808246c69625ca083e118180a36c6a0c21"
+    },
+    {
+      "file": "assets/vo/b18.wav",
+      "sha256": "186939db566af0840aaec6ae1ddc6fbb9308c54b55776d9ef47df11495685588"
+    },
+    {
+      "file": "assets/vo/b19.wav",
+      "sha256": "25d57a6fd9403a9dad6575db04352ffeaf3745686dc258cf22762ee757d32d79"
+    },
+    {
+      "file": "assets/vo/b20.wav",
+      "sha256": "009eba0d1521c3b8388ce9f44feeab9d8b094a0e237b8ab9fbf37175e37c5be4"
+    }
+  ],
+  "generatedScenesSha256": "a64c9776aa059b3a9a203dfc325fb8fff94b36108f4d87ccbdc6196796a50726"
+}

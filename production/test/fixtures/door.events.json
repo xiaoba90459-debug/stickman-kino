@@ -1,0 +1,54 @@
+{
+  "reviewed": true,
+  "reviewer": "Codex narrative planning; configuration only, no story-specific JS",
+  "beats": [
+    {
+      "id": "b01",
+      "purpose": "Show a door opening onto the wrong time immediately",
+      "kind": "action",
+      "setting": "apartment",
+      "year": null,
+      "props": [
+        {
+          "id": "door",
+          "type": "door",
+          "state": "closed",
+          "text": "1912",
+          "color": "#527c8d"
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "open",
+          "phase": 0.08,
+          "target": "door"
+        },
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.62
+        }
+      ],
+      "actors": [
+        "eli"
+      ]
+    },
+    {
+      "id": "b02",
+      "purpose": "Give concrete evidence for the first time displacement",
+      "kind": "insert",
+      "setting": "street",
+      "year": "1912",
+      "props": [
+        {
+          "id": "paper",
+          "type": "document",
+          "text": "DAILY NEWS\n1912"
+        }
+      ],
+      "actions": [],
+      "actors": []
+    }
+  ]
+}

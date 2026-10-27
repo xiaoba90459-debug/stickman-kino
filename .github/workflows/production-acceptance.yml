@@ -1,0 +1,43 @@
+name: Production configuration acceptance
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "production/**"
+      - "skills/story-production/**"
+      - ".github/workflows/production-acceptance.yml"
+permissions:
+  contents: read
+jobs:
+  acceptance:
+    runs-on: ubuntu-latest
+    env:
+      ONNXRUNTIME_NODE_INSTALL_CUDA: skip
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci
+      - run: |
+          python -m pip install --only-binary=:all: --target production/.python -r production/requirements-align.txt
+      - run: npx --yes playwright@1 install --with-deps chromium-headless-shell
+      - run: node bin/stickman.mjs setup --no-tts
+      - run: npm test
+      - run: node --test production/test/*.test.mjs
+      - name: Same command, two different stories (no render or paid APIs)
+        run: |
+          node production/cli.mjs run production/test/fixtures/door.job.json
+          node production/cli.mjs run production/test/fixtures/clock.job.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: production-acceptance-evidence
+          path: |
+            videos/acceptance-*/production-plan.json
+            videos/acceptance-*/production-manifest.json
+            videos/acceptance-*/runtime-qa.json
+            videos/acceptance-*/preflight.json

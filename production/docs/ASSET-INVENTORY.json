@@ -1,0 +1,128 @@
+[
+  {
+    "file": "assets/art/apartment/far.png",
+    "bytes": 484590,
+    "sha256": "3c90a535325dfb67a3a39ca764de39aa315f400f8dc6971c7a928a467aae1bd2",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/apartment/far.svg",
+    "bytes": 27545,
+    "sha256": "634d611ed1b7bbe57dd13a4d76009ed944ed14a6a19781d68fc37fdbb5a24838",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/apartment/fore.png",
+    "bytes": 257079,
+    "sha256": "bfb298fbbf4a36ab4abe29b7265d3d137ddda8ad0dae3ec3f33dc60fe17a4502",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/apartment/fore.svg",
+    "bytes": 2937,
+    "sha256": "40f577b0291fa7dcae45a2c1038f808b7309a585130e52ed94c7240263b7f8eb",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/apartment/mid.png",
+    "bytes": 1314215,
+    "sha256": "c5790c08a408022ff38efc5e999469d94bae988c5c81fcedf272731a884afbaf",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/apartment/mid.svg",
+    "bytes": 165953,
+    "sha256": "0990d05377bed659c6e5a54a12b1c7134cabba26863f1aa27163702c8357f031",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/street/far.png",
+    "bytes": 334575,
+    "sha256": "67948a43a5f8b40048f4593253f64acf5fb645f03b78adf43722a73b3a2bd45c",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/street/far.svg",
+    "bytes": 42589,
+    "sha256": "477424b3ddac51e50bfc0588ef015e96ffae369dd9939d89854fd9768fb1a78a",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/street/fore.png",
+    "bytes": 108548,
+    "sha256": "545e017df0c5a4ccd871af4713b9a68eba7903f258d01d5db7e7257fbc19afab",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/street/fore.svg",
+    "bytes": 1996,
+    "sha256": "bdd8c31df18262de66385476fbb43f84910698b0418dcba6d03c4b463e8d1352",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/street/mid.png",
+    "bytes": 266083,
+    "sha256": "d59f90a680aa1d874c7de3dc975742b27817ed3fb7f4f44cbd1d2b7d9a49c04b",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/street/mid.svg",
+    "bytes": 14198,
+    "sha256": "5184ef87aa3e51b253bdb74c6f29fcf489f79521a00883f44acafb242ad531c5",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/subway/far.png",
+    "bytes": 315493,
+    "sha256": "46bb1a073f1e07a4978087224ccc37f08fe2333e47b78469558505e49b5dcc45",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/subway/far.svg",
+    "bytes": 1400,
+    "sha256": "cd86b612be12f70438ae9820a8a585a3aee0b1b3308fbc34c8f67278b38127ab",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/subway/fore.png",
+    "bytes": 105157,
+    "sha256": "ebdef6a7d67b7df1a1bc4429b93ab7ccc02e1617516a3a3898f99afa8f68ccfd",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/subway/fore.svg",
+    "bytes": 613,
+    "sha256": "bc67a6dce7f66a61a8b86171b5a903ef143c4a10df93ba3cc1fc2471cfb5acc5",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/subway/mid.png",
+    "bytes": 335593,
+    "sha256": "6c11cf1779c71d555e0b6987f024fa12d5c1b2166c5596a0868051ecc1019997",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  },
+  {
+    "file": "assets/art/subway/mid.svg",
+    "bytes": 8890,
+    "sha256": "a49162a071b5c7fdfd5b6e1b7d26959db9d0bd1d0e51844e5b06c92e1d92951a",
+    "era": "generic/contemporary illustration; no validated historical/future era",
+    "source": "Original B/P3 illustration copied unchanged; not reference-channel material"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "backgrounds": {
+    "apartment": {
+      "kind": "layered",
+      "ground": 850,
+      "layers": [
+        {
+          "depth": "far",
+          "file": "../assets/art/apartment/far.png",
+          "svg": "../assets/art/apartment/far.svg",
+          "dx": 8
+        },
+        {
+          "depth": "mid",
+          "file": "../assets/art/apartment/mid.png",
+          "svg": "../assets/art/apartment/mid.svg",
+          "dx": -4
+        },
+        {
+          "depth": "fore",
+          "file": "../assets/art/apartment/fore.png",
+          "svg": "../assets/art/apartment/fore.svg",
+          "dx": -22
+        }
+      ],
+      "logicalBounds": [
+        -240,
+        -135,
+        2400,
+        1350
+      ],
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    "street": {
+      "kind": "layered",
+      "ground": 850,
+      "layers": [
+        {
+          "depth": "far",
+          "file": "../assets/art/street/far.png",
+          "svg": "../assets/art/street/far.svg",
+          "dx": 8
+        },
+        {
+          "depth": "mid",
+          "file": "../assets/art/street/mid.png",
+          "svg": "../assets/art/street/mid.svg",
+          "dx": -4
+        },
+        {
+          "depth": "fore",
+          "file": "../assets/art/street/fore.png",
+          "svg": "../assets/art/street/fore.svg",
+          "dx": -22
+        }
+      ],
+      "logicalBounds": [
+        -240,
+        -135,
+        2400,
+        1350
+      ],
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    },
+    "subway": {
+      "kind": "layered",
+      "ground": 850,
+      "layers": [
+        {
+          "depth": "far",
+          "file": "../assets/art/subway/far.png",
+          "svg": "../assets/art/subway/far.svg",
+          "dx": 8
+        },
+        {
+          "depth": "mid",
+          "file": "../assets/art/subway/mid.png",
+          "svg": "../assets/art/subway/mid.svg",
+          "dx": -4
+        },
+        {
+          "depth": "fore",
+          "file": "../assets/art/subway/fore.png",
+          "svg": "../assets/art/subway/fore.svg",
+          "dx": -22
+        }
+      ],
+      "logicalBounds": [
+        -240,
+        -135,
+        2400,
+        1350
+      ],
+      "provenance": "adopted B assets; copied unchanged, original source files preserved"
+    }
+  },
+  "graphic": {
+    "kind": "svg",
+    "background": "#173040"
+  }
+}

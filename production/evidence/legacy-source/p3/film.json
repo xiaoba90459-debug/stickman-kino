@@ -1,0 +1,432 @@
+{
+  "$schema": "../../schema/film.schema.json",
+  "title": "What If Your Shadow Moved Three Seconds Ahead? \u2014 Phase 3",
+  "format": "16:9",
+  "fps": 30,
+  "lang": "en",
+  "theme": {
+    "extends": "dark",
+    "bg": "#111b32",
+    "ink": "#f9ead5",
+    "paper": "#f2dcc1",
+    "muted": "#b8c8dc",
+    "soft": "#243955",
+    "accents": [
+      "#ff806c",
+      "#5ce0ce",
+      "#ffd272"
+    ],
+    "decor": null
+  },
+  "voice": {
+    "provider": "files",
+    "voice": "af_heart",
+    "speed": 0.94,
+    "lufs": -16
+  },
+  "music": {
+    "style": "suspense",
+    "bpm": 78,
+    "seed": 31,
+    "lufs": -30,
+    "volume": 0.8
+  },
+  "captions": false,
+  "clips": [
+    {
+      "id": "omen",
+      "duration": 4.5,
+      "label": "Wide / concrete cold open",
+      "voStart": 0,
+      "vo": "Her shadow ducked. Before she did.",
+      "visual": "Shadow ducks .35; Mira looks over, hesitates, ducks and retreats 3.35; sign falls 3.65 and lands 4.10.",
+      "sfx": [
+        {
+          "at": 0.35,
+          "name": "whoosh",
+          "volume": 0.16
+        },
+        {
+          "at": 3.35,
+          "name": "whoosh",
+          "volume": 0.23
+        },
+        {
+          "at": 3.65,
+          "name": "zip",
+          "volume": 0.22
+        },
+        {
+          "at": 4.1,
+          "name": "impact",
+          "volume": 0.38
+        }
+      ]
+    },
+    {
+      "id": "aftermath",
+      "duration": 2,
+      "label": "Object insert",
+      "voStart": 0,
+      "vo": "The sign missed her.",
+      "visual": "Same fallen sign position/rotation, small settling motion and dust, same pool of light.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "thud",
+          "volume": 0.17
+        }
+      ]
+    },
+    {
+      "id": "fear",
+      "duration": 2,
+      "label": "Face reaction",
+      "voStart": 0,
+      "vo": "She hadn't moved first.",
+      "visual": "Mira looks down at the sign, then toward her shadow; fear replaces relief.",
+      "sfx": [
+        {
+          "at": 0.5,
+          "name": "heartbeat",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "test",
+      "duration": 4.5,
+      "label": "Relationship two-shot",
+      "voStart": 0,
+      "vo": "At home, she tried a test.",
+      "visual": "In the reused warm room, shadow raises .25; Mira follows 3.25 after a head tilt and uncertain gesture.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "tick",
+          "volume": 0.2
+        },
+        {
+          "at": 3.25,
+          "name": "ding",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "rule",
+      "duration": 3.5,
+      "label": "Independent SVG rule graphic",
+      "voStart": 0,
+      "vo": "The shadow led by exactly three seconds.",
+      "visual": "Two actor cards and one cursor travel from 0 to3; shadow raises .15, Mira3.15.",
+      "sfx": [
+        {
+          "at": 0.15,
+          "name": "tick",
+          "volume": 0.15
+        },
+        {
+          "at": 1.15,
+          "name": "tick",
+          "volume": 0.15
+        },
+        {
+          "at": 2.15,
+          "name": "tick",
+          "volume": 0.15
+        },
+        {
+          "at": 3.15,
+          "name": "ding",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "defiance",
+      "duration": 4.5,
+      "label": "Medium / failed refusal",
+      "voStart": 0,
+      "vo": "Mira held still. It reached anyway. Her hand followed.",
+      "visual": "Mira folds arms and tries to resist; shadow reaches .4, Mira involuntarily follows 3.4.",
+      "sfx": [
+        {
+          "at": 0.4,
+          "name": "whoosh",
+          "volume": 0.15
+        },
+        {
+          "at": 3.4,
+          "name": "heartbeat",
+          "volume": 0.2
+        }
+      ]
+    },
+    {
+      "id": "hand",
+      "duration": 2,
+      "label": "Hand detail",
+      "voStart": 0,
+      "vo": "Could she refuse?",
+      "visual": "Continue the extended arm; fingers/hand and bent elbow fill the frame, slight tremor and retraction.",
+      "sfx": [
+        {
+          "at": 0.8,
+          "name": "tick",
+          "volume": 0.13
+        }
+      ]
+    },
+    {
+      "id": "escape",
+      "duration": 4.5,
+      "label": "Tracking wide",
+      "voStart": 0,
+      "vo": "She took the long way to the subway.",
+      "visual": "Mira walks with guarded gestures; shadow keeps pace on the wall, slightly ahead; subway entrance motif at right.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 0.85,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 1.4,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 2,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 2.6,
+          "name": "tap",
+          "volume": 0.1
+        },
+        {
+          "at": 3.2,
+          "name": "tap",
+          "volume": 0.1
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "duration": 3,
+      "label": "Environment establish",
+      "voStart": 0,
+      "vo": "One train. One way home.",
+      "visual": "Mira enters teal station, moves toward the arriving car and pauses at the yellow line.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.12
+        },
+        {
+          "at": 1.4,
+          "name": "riser",
+          "volume": 0.12
+        }
+      ]
+    },
+    {
+      "id": "opening",
+      "duration": 2.5,
+      "label": "Door insert",
+      "voStart": 0,
+      "vo": "The doors slid open.",
+      "visual": "Train doorway opens onto a visibly empty warm interior.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "slide",
+          "volume": 0.2
+        },
+        {
+          "at": 1.1,
+          "name": "beep",
+          "volume": 0.12
+        }
+      ]
+    },
+    {
+      "id": "retreat",
+      "duration": 4.5,
+      "label": "Two-shot / warning",
+      "voStart": 0,
+      "vo": "It stepped back. She followed.",
+      "visual": "Shadow backs away .2; Mira hesitates, then steps back3.2. Doors begin to snap shut3.9.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "tap",
+          "volume": 0.15
+        },
+        {
+          "at": 3.2,
+          "name": "tap",
+          "volume": 0.22
+        },
+        {
+          "at": 3.9,
+          "name": "alarm",
+          "volume": 0.17
+        }
+      ]
+    },
+    {
+      "id": "slam",
+      "duration": 2.5,
+      "label": "Consequence insert",
+      "voStart": 0,
+      "vo": "The doors snapped shut.",
+      "visual": "Continue the same closing panels; slam and recoil; the opening she occupied is sealed.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "thud",
+          "volume": 0.32
+        },
+        {
+          "at": 0.25,
+          "name": "impact",
+          "volume": 0.23
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "duration": 4.5,
+      "label": "Hand relationship two-shot",
+      "voStart": 0,
+      "vo": "It offered a hand. Mira reached back.",
+      "visual": "Shadow reaches .25; Mira chooses to meet the hand3.25; palms line up.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "heartbeat",
+          "volume": 0.13
+        },
+        {
+          "at": 3.6,
+          "name": "chime",
+          "volume": 0.17
+        }
+      ]
+    },
+    {
+      "id": "request",
+      "duration": 3,
+      "label": "Determined reaction",
+      "voStart": 0,
+      "vo": "Let me choose.",
+      "visual": "Mira retracts hand, looks directly toward the shadow and squares her shoulders.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.1
+        }
+      ]
+    },
+    {
+      "id": "choice",
+      "duration": 4.5,
+      "label": "Wide / deliberate decision",
+      "voStart": 0,
+      "vo": "This time, she stayed behind the line.",
+      "visual": "Mira takes a deliberate step back and waits. Train doors reopen at2.4; the shadow looks toward them.",
+      "sfx": [
+        {
+          "at": 0.3,
+          "name": "tap",
+          "volume": 0.17
+        },
+        {
+          "at": 2.4,
+          "name": "slide",
+          "volume": 0.18
+        },
+        {
+          "at": 2.9,
+          "name": "beep",
+          "volume": 0.1
+        }
+      ]
+    },
+    {
+      "id": "split",
+      "duration": 2,
+      "label": "Separation detail",
+      "voStart": 0,
+      "vo": "But her shadow didn't.",
+      "visual": "Mira\u2019s feet stay planted; ground-cast link fades as the silhouette walks toward the train.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "tap",
+          "volume": 0.13
+        },
+        {
+          "at": 1,
+          "name": "heartbeat",
+          "volume": 0.17
+        }
+      ]
+    },
+    {
+      "id": "boarding",
+      "duration": 2.5,
+      "label": "Boarding wide",
+      "voStart": 0,
+      "vo": "It boarded without her.",
+      "visual": "Continue silhouette from x1180 to doorway1240, disappear into warm interior; Mira watches fromx800.",
+      "sfx": [
+        {
+          "at": 0.25,
+          "name": "tap",
+          "volume": 0.12
+        },
+        {
+          "at": 1.6,
+          "name": "whoosh",
+          "volume": 0.17
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "duration": 3.5,
+      "label": "Final wide / moving frame",
+      "voStart": 0,
+      "vo": "Then who was following whom?",
+      "visual": "A smaller silhouette waves from inside the train window. Train leaves; Mira remains in the light.",
+      "sfx": [
+        {
+          "at": 0.2,
+          "name": "slide",
+          "volume": 0.14
+        },
+        {
+          "at": 1.4,
+          "name": "whoosh",
+          "volume": 0.19
+        },
+        {
+          "at": 2.8,
+          "name": "sting",
+          "volume": 0.16
+        }
+      ]
+    }
+  ]
+}

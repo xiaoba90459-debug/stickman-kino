@@ -1,0 +1,7 @@
+{
+ "version":1,"id":"recording-user-story","title":"A supplied narration example",
+ "story":"../every-door/story.txt","events":"../every-door/events.json",
+ "targetSeconds":80,"format":"16:9",
+ "audio":{"mode":"recording","file":"narration.wav"},
+ "planning":{"mode":"codex-reviewed-events","primaryCharacter":"eli"},"config":{}
+}

@@ -1,0 +1,84 @@
+{
+  "checkedAtUtc": "2026-10-27T04:20:22.149414+00:00",
+  "protectedPriorFiles": 430,
+  "changedPriorFiles": [],
+  "protectedHostedFiles": 85,
+  "changedHostedFiles": [],
+  "productionCodeSha256": "dc3c3dab49630010367504e69ff7f016c1388f625f93cc4eba1645d727a07a76",
+  "sharedAdapterSha256": "d89c594e43ea3b1cd268829d83d4caf3088813da4ff54098ae73830f9e334a05",
+  "differentStoriesSameCode": true,
+  "mainStory": {
+    "seconds": 80,
+    "shots": 20,
+    "video": {
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "fps": "30/1",
+      "frames": 2400
+    },
+    "bytes": 44403063,
+    "renderKinds": {
+      "layered": 17,
+      "svg": 3
+    },
+    "cameraPresets": [
+      "graphic",
+      "medium",
+      "object",
+      "reaction",
+      "relationship",
+      "tracking",
+      "wide"
+    ]
+  },
+  "reuseStory": {
+    "seconds": 14,
+    "shots": 3,
+    "mediaQa": "passed"
+  },
+  "continuousRecordingAlignment": {
+    "words": 154,
+    "sourceSeconds": 80,
+    "medianWordStartDifferenceSeconds": 0.0033333333333338544,
+    "p95WordStartDifferenceSeconds": 0.029999999999986926,
+    "maxWordStartDifferenceSeconds": 0.09,
+    "meaning": "Continuous-file alignment compared with known segment placements, not human gold-standard word boundaries"
+  },
+  "newTestsPassed": 12,
+  "legacyTestsPassed": 16,
+  "paidApiCalls": 0,
+  "longDurationStatus": {
+    "180": "planning config tested; no end-to-end render",
+    "600": "planning config tested; no end-to-end render"
+  },
+  "delivery": {
+    "originalMaster": "/workspace/stickman-kino/videos/every-door-production/renders/every-door-production.mp4",
+    "masterBytes": 44403063,
+    "deliveryFile": "every-door-delivery.mp4",
+    "deliveryBytes": 12906229,
+    "encoding": "1080p30 libx264 fast CRF23; VBV maxrate2200k/bufsize4400k; AAC copied",
+    "reason": "Private static artifact hosting has a 25 MiB per-file limit; full-duration 1080p30 master remains unchanged in cloud.",
+    "sha256": "5b19938c02f8252c57397a35c5c26edc51da67a8a122d5d0a1200ed86331fc0b",
+    "mediaQa": "passed"
+  },
+  "browserPlayback": {
+    "playback": {
+      "duration": 80,
+      "width": 1920,
+      "height": 1080,
+      "currentTime": 1.215463,
+      "error": null,
+      "audioDecodedBytes": 36266,
+      "videoDecodedBytes": 283959,
+      "readyState": 4
+    },
+    "seekTo44_2": "passed",
+    "mobile": {
+      "overflow": false,
+      "videoWidth": 350,
+      "innerWidth": 390
+    },
+    "pageErrors": []
+  }
+}

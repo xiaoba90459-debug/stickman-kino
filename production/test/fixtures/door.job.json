@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "id": "acceptance-door",
+  "title": "What If Every Door Led to a Different Year? \u2014 short reproduction fixture",
+  "story": "door.txt",
+  "events": "door.events.json",
+  "targetSeconds": 10,
+  "format": "16:9",
+  "audio": {
+    "mode": "recording",
+    "file": "door.flac"
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "directory": "videos/acceptance-door"
+  },
+  "config": {}
+}

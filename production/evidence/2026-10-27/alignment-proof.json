@@ -1,0 +1,8 @@
+{
+  "words": 154,
+  "sourceSeconds": 80,
+  "medianWordStartDifferenceSeconds": 0.0033333333333338544,
+  "p95WordStartDifferenceSeconds": 0.029999999999986926,
+  "maxWordStartDifferenceSeconds": 0.09,
+  "meaning": "Continuous-file alignment compared with known segment placements, not human gold-standard word boundaries"
+}

@@ -1,0 +1,628 @@
+{
+  "version": 1,
+  "title": "The Clock That Knew Her Name \u2014 short reproduction fixture",
+  "id": "acceptance-clock",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 14,
+  "shots": [
+    {
+      "id": "b01",
+      "purpose": "An unmarked clock creates curiosity",
+      "kind": "action",
+      "setting": "apartment",
+      "actors": [
+        "eli"
+      ],
+      "props": [
+        {
+          "id": "clock",
+          "type": "clock",
+          "x": 1240,
+          "y": 500,
+          "size": 240
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "read",
+          "phase": 0.08,
+          "at": 0.2533,
+          "duration": 0.4
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 1.15,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "actor": "eli",
+          "verb": "hesitate",
+          "phase": 0.64,
+          "at": 2.0267,
+          "duration": 0.45
+        }
+      ],
+      "start": 0,
+      "duration": 3.1666666666666665,
+      "end": 3.1666666666666665,
+      "renderKind": "layered",
+      "camera": {
+        "focus": [
+          960,
+          520,
+          1
+        ],
+        "end": [
+          990,
+          515,
+          1.04
+        ],
+        "actor": {
+          "x": 710,
+          "size": 535,
+          "ground": 850
+        }
+      },
+      "cameraId": "wide",
+      "stages": {
+        "eli": {
+          "x": 710,
+          "size": 535,
+          "ground": 850,
+          "character": "eli"
+        }
+      },
+      "captions": [
+        {
+          "text": "Nora found a clock with",
+          "start": 0.26,
+          "end": 1.39
+        },
+        {
+          "text": "no numbers.",
+          "start": 1.39,
+          "end": 2.085
+        }
+      ],
+      "sfx": [],
+      "narration": {
+        "text": "Nora found a clock with no numbers.",
+        "start": 0,
+        "duration": 3.166667,
+        "alignment": "PocketSphinx 5.0.4 known-transcript forced alignment; 10ms acoustic frames"
+      },
+      "environment": "apartment"
+    },
+    {
+      "id": "b02",
+      "purpose": "A gesture changes the clock",
+      "kind": "action",
+      "setting": "apartment",
+      "actors": [
+        "eli"
+      ],
+      "props": [
+        {
+          "id": "clock",
+          "type": "clock",
+          "x": 1240,
+          "y": 500,
+          "size": 240
+        }
+      ],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 0.05,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "actor": "eli",
+          "verb": "point",
+          "phase": 0.1,
+          "target": "clock",
+          "at": 0.57,
+          "duration": 0.5
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 2.25,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 3.35,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "verb": "shake",
+          "target": "clock",
+          "phase": 0.6,
+          "at": 3.42,
+          "duration": 0.7
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 4.45,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        }
+      ],
+      "start": 3.1666666666666665,
+      "duration": 5.7,
+      "end": 8.866666666666667,
+      "renderKind": "layered",
+      "camera": {
+        "focus": [
+          1000,
+          520,
+          1.18
+        ],
+        "end": [
+          1010,
+          510,
+          1.25
+        ],
+        "actor": {
+          "x": 800,
+          "size": 540,
+          "ground": 850
+        }
+      },
+      "cameraId": "medium",
+      "stages": {
+        "eli": {
+          "x": 800,
+          "size": 540,
+          "ground": 850,
+          "character": "eli"
+        }
+      },
+      "captions": [
+        {
+          "text": "She pointed at its face,",
+          "start": 1.1333333333333333,
+          "end": 2.5033333333333334
+        },
+        {
+          "text": "and the clock began to",
+          "start": 2.5033333333333334,
+          "end": 3.6633333333333336
+        },
+        {
+          "text": "shake.",
+          "start": 3.6633333333333336,
+          "end": 4.148333333333333
+        }
+      ],
+      "sfx": [
+        {
+          "at": 3.42,
+          "name": "tap",
+          "volume": 0.2
+        }
+      ],
+      "narration": {
+        "text": "She pointed at its face, and the clock began to shake.",
+        "start": 0,
+        "duration": 5.7,
+        "alignment": "PocketSphinx 5.0.4 known-transcript forced alignment; 10ms acoustic frames"
+      },
+      "environment": "apartment"
+    },
+    {
+      "id": "b03",
+      "purpose": "An impossible response creates a mystery",
+      "kind": "reaction",
+      "setting": "apartment",
+      "actors": [
+        "eli"
+      ],
+      "props": [],
+      "actions": [
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 0.05,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "actor": "eli",
+          "verb": "startle",
+          "phase": 0.1,
+          "at": 0.5133,
+          "duration": 0.3
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 1.15,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 2.25,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        },
+        {
+          "actor": "eli",
+          "verb": "look-back",
+          "phase": 0.64,
+          "at": 3.2853,
+          "duration": 0.35
+        },
+        {
+          "actor": "eli",
+          "verb": "breathe",
+          "at": 4.45,
+          "duration": 0.3,
+          "source": "automatic residual idle gap"
+        }
+      ],
+      "start": 8.866666666666667,
+      "duration": 5.133333333333334,
+      "end": 14,
+      "renderKind": "layered",
+      "camera": {
+        "focus": [
+          820,
+          490,
+          1.5
+        ],
+        "end": [
+          830,
+          480,
+          1.58
+        ],
+        "actor": {
+          "x": 820,
+          "size": 620,
+          "ground": 1030
+        }
+      },
+      "cameraId": "reaction",
+      "stages": {
+        "eli": {
+          "x": 820,
+          "size": 620,
+          "ground": 1030,
+          "character": "eli"
+        }
+      },
+      "captions": [
+        {
+          "text": "Then the clock whispered her",
+          "start": 1.5833333333333321,
+          "end": 2.6833333333333336
+        },
+        {
+          "text": "name.",
+          "start": 2.6833333333333336,
+          "end": 3.0983333333333327
+        }
+      ],
+      "sfx": [],
+      "narration": {
+        "text": "Then the clock whispered her name.",
+        "start": 0,
+        "duration": 5.133333,
+        "alignment": "PocketSphinx 5.0.4 known-transcript forced alignment; 10ms acoustic frames"
+      },
+      "environment": "apartment"
+    }
+  ],
+  "characters": {
+    "eli": {
+      "name": "Nora",
+      "size": 540,
+      "color": "#29384a",
+      "paper": "#f1d6b4",
+      "shirt": "#769b84",
+      "shorts": "#344153",
+      "hat": "cap",
+      "hatColor": "#c4767d",
+      "hair": "bob",
+      "face": "dots",
+      "glasses": false,
+      "stroke": 0.027
+    },
+    "older-eli": {
+      "name": "Older Eli",
+      "size": 540,
+      "color": "#354352",
+      "paper": "#f1d6b4",
+      "shirt": "#c5c8b4",
+      "shorts": "#344153",
+      "hat": "beanie",
+      "hatColor": "#728eaa",
+      "face": "dots",
+      "glasses": true,
+      "stroke": 0.027
+    }
+  },
+  "actions": {
+    "observe": {
+      "kind": "pose",
+      "pose": "stand",
+      "overrides": {
+        "H": -103
+      },
+      "emotion": "neutral",
+      "duration": 0.35
+    },
+    "look-back": {
+      "kind": "pose",
+      "pose": "stand",
+      "overrides": {
+        "H": -75
+      },
+      "emotion": "worried",
+      "duration": 0.35
+    },
+    "hesitate": {
+      "kind": "pose",
+      "pose": "think",
+      "emotion": "worried",
+      "duration": 0.45
+    },
+    "startle": {
+      "kind": "pose",
+      "pose": "scared",
+      "emotion": "surprised",
+      "duration": 0.3
+    },
+    "refuse": {
+      "kind": "pose",
+      "pose": "armsCross",
+      "emotion": "neutral",
+      "duration": 0.4
+    },
+    "walk": {
+      "kind": "locomotion",
+      "dx": 210,
+      "duration": 1.1,
+      "sfx": "tap"
+    },
+    "backstep": {
+      "kind": "locomotion",
+      "dx": -135,
+      "face": false,
+      "duration": 0.65,
+      "sfx": "tap"
+    },
+    "reach": {
+      "kind": "reach",
+      "duration": 0.45
+    },
+    "point": {
+      "kind": "point",
+      "duration": 0.5
+    },
+    "open": {
+      "kind": "door",
+      "state": "open",
+      "duration": 0.9,
+      "sfx": "slide",
+      "sfxOffset": 0.4
+    },
+    "close": {
+      "kind": "door",
+      "state": "closed",
+      "duration": 0.9,
+      "sfx": "thud",
+      "sfxOffset": 0.75
+    },
+    "knock": {
+      "kind": "knock",
+      "duration": 0.65,
+      "sfx": "tap",
+      "sfxOffset": 0.3
+    },
+    "read": {
+      "kind": "pose",
+      "pose": "think",
+      "overrides": {
+        "H": -80
+      },
+      "emotion": "worried",
+      "duration": 0.4
+    },
+    "wave": {
+      "kind": "wave",
+      "duration": 0.8
+    },
+    "turn": {
+      "kind": "turn",
+      "duration": 0.35
+    },
+    "breathe": {
+      "kind": "micro",
+      "duration": 0.3
+    },
+    "swim": {
+      "supported": false,
+      "reason": "No validated water/body interaction template"
+    },
+    "fight": {
+      "supported": false,
+      "reason": "No validated multi-character contact choreography"
+    },
+    "fly": {
+      "supported": false,
+      "reason": "No validated flight/body physics template"
+    },
+    "vanish": {
+      "kind": "prop-fade",
+      "duration": 0.35,
+      "sfx": "zip"
+    },
+    "shake": {
+      "kind": "prop-shake",
+      "duration": 0.7,
+      "sfx": "tap"
+    }
+  },
+  "backgrounds": {
+    "version": 1,
+    "backgrounds": {
+      "apartment": {
+        "kind": "layered",
+        "ground": 850,
+        "layers": [
+          {
+            "depth": "far",
+            "file": "../assets/art/apartment/far.png",
+            "svg": "../assets/art/apartment/far.svg",
+            "dx": 8,
+            "runtimeFile": "assets/art/apartment/far.png"
+          },
+          {
+            "depth": "mid",
+            "file": "../assets/art/apartment/mid.png",
+            "svg": "../assets/art/apartment/mid.svg",
+            "dx": -4,
+            "runtimeFile": "assets/art/apartment/mid.png"
+          },
+          {
+            "depth": "fore",
+            "file": "../assets/art/apartment/fore.png",
+            "svg": "../assets/art/apartment/fore.svg",
+            "dx": -22,
+            "runtimeFile": "assets/art/apartment/fore.png"
+          }
+        ],
+        "logicalBounds": [
+          -240,
+          -135,
+          2400,
+          1350
+        ],
+        "provenance": "adopted B assets; copied unchanged, original source files preserved"
+      },
+      "street": {
+        "kind": "layered",
+        "ground": 850,
+        "layers": [
+          {
+            "depth": "far",
+            "file": "../assets/art/street/far.png",
+            "svg": "../assets/art/street/far.svg",
+            "dx": 8
+          },
+          {
+            "depth": "mid",
+            "file": "../assets/art/street/mid.png",
+            "svg": "../assets/art/street/mid.svg",
+            "dx": -4
+          },
+          {
+            "depth": "fore",
+            "file": "../assets/art/street/fore.png",
+            "svg": "../assets/art/street/fore.svg",
+            "dx": -22
+          }
+        ],
+        "logicalBounds": [
+          -240,
+          -135,
+          2400,
+          1350
+        ],
+        "provenance": "adopted B assets; copied unchanged, original source files preserved"
+      },
+      "subway": {
+        "kind": "layered",
+        "ground": 850,
+        "layers": [
+          {
+            "depth": "far",
+            "file": "../assets/art/subway/far.png",
+            "svg": "../assets/art/subway/far.svg",
+            "dx": 8
+          },
+          {
+            "depth": "mid",
+            "file": "../assets/art/subway/mid.png",
+            "svg": "../assets/art/subway/mid.svg",
+            "dx": -4
+          },
+          {
+            "depth": "fore",
+            "file": "../assets/art/subway/fore.png",
+            "svg": "../assets/art/subway/fore.svg",
+            "dx": -22
+          }
+        ],
+        "logicalBounds": [
+          -240,
+          -135,
+          2400,
+          1350
+        ],
+        "provenance": "adopted B assets; copied unchanged, original source files preserved"
+      }
+    },
+    "graphic": {
+      "kind": "svg",
+      "background": "#173040"
+    }
+  },
+  "policy": {
+    "version": 1,
+    "minShotSeconds": 2.5,
+    "maxShotSeconds": 7,
+    "maxSameCompositionStreak": 1,
+    "captionFontSize": 70,
+    "captionWords": 5,
+    "captionSafeY": 1008,
+    "microActEverySeconds": 1.1,
+    "music": {
+      "style": "suspense",
+      "bpm": 82,
+      "seed": 73,
+      "lufs": -30,
+      "volume": 0.7
+    },
+    "render": {
+      "quality": "looks",
+      "fps": 30,
+      "workers": 2,
+      "timeoutSeconds": 2700
+    },
+    "limits": {
+      "maxAudioFileBytes": 200000000,
+      "maxGeneratedFileBytes": 1000000000,
+      "audioCommandTimeoutSeconds": 90,
+      "maxSeconds": 720
+    },
+    "validation": {
+      "60": "previous story rendered, general entry needs independent test",
+      "180": "configuration only, not end-to-end validated",
+      "600": "configuration only, not end-to-end validated"
+    },
+    "maxUnchangedPrimarySeconds": 2
+  },
+  "automation": {
+    "semanticPlanning": "Codex configuration-only reuse test",
+    "shotLayout": "deterministic generic planner",
+    "timing": "measured audio; forced word alignment when words[] exists",
+    "runtime": "shared, byte-identical across stories",
+    "durationValidation": "requires actual render"
+  }
+}
