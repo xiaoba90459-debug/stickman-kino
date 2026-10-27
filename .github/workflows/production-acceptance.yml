@@ -23,7 +23,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: npm ci
-      - run: python -m pip install --only-binary=:all: --target production/.python -r production/requirements-align.txt
+      - run: |
+          python -m pip install --only-binary=:all: --target production/.python -r production/requirements-align.txt
       - run: npx --yes playwright@1 install --with-deps chromium-headless-shell
       - run: node bin/stickman.mjs setup --no-tts
       - run: npm test
